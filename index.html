@@ -6,18 +6,19 @@
   <title>Shalaka Shinde</title>
  <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/fed17b7b28.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<link rel="stylesheet" href="css/base.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <style>
 
 body {
-  cursor:grab;
   background-color: #F8F6F0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .custom-tooltip {
@@ -44,6 +45,22 @@ hr {
 
 .story-holder {
    max-width: 1100px;
+}
+
+.headline-holder {
+  max-width: 1000px;
+  font-size: 30px;
+  text-align: left;
+}
+
+img {
+  height: 260px;
+  width:fit-content;
+}
+
+.img-size {
+  height: 280px;
+  width: fit-content;
 }
 
 </style>
@@ -73,219 +90,274 @@ hr {
 
 <br>
 
-<div class="container-fluid bg-3 text-left story-holder">
-      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px;"> <i class="fa-solid fa-database"></i> Data reporting </p>    
+<div class="container-fluid headline-holder">
+  <p> <i class="fa-solid fa-database"></i> Data reporting </p>
 </div>
 
 <hr>
 <br>
 
-<div class="container-fluid bg-4 text-center headline story-holder">    
-  <div class="row">
-    <div class="col box-shadow"> 
-      <label class="btn-secondary btn-group-sm custom-tooltip">
-        scraping | 
-      </label>
-      <label class="btn-group-sm custom-tooltip">
-      pandas | 
-      </label>
-      <label class="btn-secondary btn-group-sm custom-tooltip">
-      mapbox
-      </label>
-        <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3 card-header-padding">
-                <img src="map_photo.jpeg" alt="map image">
-              </figure>
-            </div>
-          </div>
-        <div class="card">
-            <div class="card-content card-footer-padding">
-              <div class="content">
-                <p><a target="_blank" href='https://shalakas.github.io/CJS_Project/' class="link-colour">Rotting Cases in <br> Indian Courts</a></p>
-              </div>
-            </div>
-          </div>
+<div class="container-fluid bg-4 text-center headline story-holder"> 
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <label class="btn-secondary btn-group-sm custom-tooltip">
+    scraping | 
+    </label>
+    <label class="btn-group-sm custom-tooltip">
+    pandas | 
+    </label>
+    <label class="btn-secondary btn-group-sm custom-tooltip">
+    mapbox
+    </label>
+    <div class="card h-100">
+      <a target="_blank" href='https://shalakas.github.io/CJS_Project/' class="link-colour"><img src="map_photo.jpeg" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a target="_blank" href='https://shalakas.github.io/CJS_Project/' class="link-colour"><h5 class="card-title"><strong>Rotting Cases in Indian Courts</h5></strong></a>
+        <p class="card-text">This map of five districts from Indian state of Maharashtra shows murder cases that were pending at the end of 2022 - some of them for over 20 years.</p>
+      </div>
     </div>
-
-    <div class="col"> 
-        <label class="btn-secondary btn-group-sm custom-tooltip">
-          scraping | 
-        </label>
-        <label class="btn-group-sm custom-tooltip">
-        pandas | 
-        </label>
-        <label class="btn-secondary btn-group-sm custom-tooltip">
-        mapbox
-        </label>
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3 card-header-padding">
-              <img src="map_photo.jpeg" alt="map image">
-            </figure>
-          </div>
-        </div>
-      <div class="card">
-          <div class="card-content card-footer-padding">
-            <div class="content">
-              <p><a target="_blank" href='https://shalakas.github.io/CJS_Project/' class='link-colour'>Rotting Cases in <br> Indian Courts</a></p>
-            </div>
-          </div>
-        </div>
   </div>
-
-
-    <div class="col">
-          <label class="btn-secondary btn-group-sm custom-tooltip">
-            scraping | 
-          </label>
-          <label class="btn-group-sm custom-tooltip">
-          pandas | 
-          </label>
-          <label class="btn-secondary btn-group-sm custom-tooltip">
-          mapbox
-          </label>
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3 card-header-padding">
-                <img src="map_photo.jpeg" alt="map image">
-              </figure>
-            </div>
-          </div>
-        <div class="card">
-            <div class="card-content card-footer-padding">
-              <div class="content">
-                <p><a target="_blank" href='https://shalakas.github.io/CJS_Project/' class='link-colour'>Rotting Cases in <br> Indian Courts</a></p>
-              </div>
-            </div>
-          </div>
-        </div>  
+  <div class="col">
+    <label class="btn-secondary btn-group-sm custom-tooltip">
+      scraping | 
+    </label>
+    <label class="btn-group-sm custom-tooltip">
+      datawrapper | 
+    </label>
+    <label class="btn-secondary btn-group-sm custom-tooltip">
+     pandas
+    </label>
+    <div class="card h-100">
+      <img src="AQI_image.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><a target="_blank" href='https://shalakas.github.io/autoupdating/' class="link-colour"><strong>Hourly AQI of major Indian cities</strong></a></h5>
+        <a target="_blank" href='https://shalakas.github.io/autoupdating/' class="link-colour"><p class="card-text">The page shows a table of hourly Air Quality Index (AQI) of 7 major Indian cities. The page scrapes data from a government of India website and self-updates.</p></a>
+      </div>
     </div>
-</div>
-
-<br>
-<br>
-
-<div class="container-fluid bg-3 text-left story-holder">
-  <p style="font-size: 30px;"> <i class="fa-solid fa-pen-fancy"></i> Print reporting </p>
-</div>
-
-<!-- migrant exodus, flood coverage, covid crisis, leopard census, sangli custodial death coverage -->
-
-<hr>
-<br>
-
-<div class="container-fluid bg-4 text-center headline story-holder">    
-    <div class="row">   
-    <div class="col"> 
-        <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <a target="_blank" href='https://pbs.twimg.com/media/E5GTjNiVIAAODe2?format=jpg&name=900x900'><img src="https://pbs.twimg.com/media/E5Hhn9UVEAcSPc_?format=jpg&name=large" alt="article image"></a>
-              </figure>
-            </div>
-          </div>
-        <div class="card">
-            <div class="card-content">
-              <div class="content">
-                <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
-                <p> <a target="_blank" href='https://pbs.twimg.com/media/E5GTjNiVIAAODe2?format=jpg&name=900x900' class='link-colour'>Death of 87 Covid patients in 42 <br>days doctor siblings in police custody</a><br><small class="text-muted">Jun 30, 2021</small></p>
-                
-                <!--BUTTON-->
-                <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-                  <label class="btn btn-secondary active" style="background-color:#5cbf6ec6">
-                    <a target="_blank" href='https://pbs.twimg.com/media/E5GTjNiVIAAODe2?format=jpg&name=900x900' class='link-colour'> <i class="fa-solid fa-newspaper"></i> Paper</a></label>
-                  <label class="btn btn-secondary" style="background-color:#5cbf6ec6"> <a class='link-colour' target="_blank" href="">
-                    <i class="fa-solid fa-globe"></i> Web </a>
-                  </label>
-                  </div>
-
-              </div>
-            </div>
-          </div>
-    </div>
-
-
-    <div class="col"> 
-        <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/tale-of-three-crime-families-of-pune-taak-dudhani-kalyani-31-members-and-1-100-cases-101612523725585.html'><img src="https://images.hindustantimes.com/img/2021/02/05/550x309/d7e6e8f8-67a1-11eb-8ce1-74979b633462_1612523724634.jpg" alt="crime families image"></a>
-              </figure>
-            </div>
-          </div>
-        <div class="card">
-            <div class="card-content">
-              <div class="content">
-                <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
-                <p><a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/tale-of-three-crime-families-of-pune-taak-dudhani-kalyani-31-members-and-1-100-cases-101612523725585.html' class="link-colour">Tale of three crime families of Pune: 31 members & 1,100 cases</a><br><small class="text-muted">Feb 05, 2021</small></p>
-                
-                 <!--BUTTON-->               
-                <div class="btn-group-sm">
-                  <label class="btn btn-secondary" style="background-color:#5cbf6ec6">
-                    <a class='link-colour' target="_blank" href="">
-                     <i class="fa-solid fa-newspaper"></i> Paper </a>
-                  </label>
-                  <label class="btn btn-secondary" style="background-color:#5cbf6ec6">
-                    <a target="_blank" href="https://www.hindustantimes.com/cities/pune-news/tale-of-three-crime-families-of-pune-taak-dudhani-kalyani-31-members-and-1-100-cases-101612523725585.html" class="link-colour"><i class="fa-solid fa-globe"></i> Web</a>
-                  </label>
-                  </div>
-
-              </div>
-            </div>
-          </div>
-    </div>
-
-    <div class="col"> 
-        <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <a target="_blank" href='https://www.hindustantimes.com/india-news/dog-racing-emerges-as-new-maharashtra-craze-activists-cry-foul/story-4K6CY7nwEl1dPGskthps1M.html' class="link-colour"><img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/02/Pictures/h-t-dog-race-story_f158480e-5c1c-11ea-bcc0-e4d0c7a68e9a.JPG" alt="dog racing image"></a>
-              </figure>
-            </div>
-          </div>
-        <div class="card">
-            <div class="card-content">
-              <div class="content">
-                <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
-                <p><a target="_blank" href='https://www.hindustantimes.com/india-news/dog-racing-emerges-as-new-maharashtra-craze-activists-cry-foul/story-4K6CY7nwEl1dPGskthps1M.html' class="link-colour">Dog racing emerges as new Maharashtra craze, activists cry foul</a><br><small class="text-muted">Mar 02, 2020</small></p>
-          
-                <!--BUTTON-->
-                <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-                  <label class="btn btn-secondary active" style="background-color:#5cbf6ec6"><a target="_blank" class="link-colour" href="">
-                     <i class="fa-solid fa-newspaper"></i> Paper </a>
-                  </label>
-                  <label class="btn btn-secondary" style="background-color:#5cbf6ec6">
-                    <a target="_blank" href="https://www.hindustantimes.com/india-news/dog-racing-emerges-as-new-maharashtra-craze-activists-cry-foul/story-4K6CY7nwEl1dPGskthps1M.html" class="link-colour"> <i class="fa-solid fa-globe"></i> Web </a>
-                  </label>
-                  </div>
-
-              </div>
-            </div>
-          </div>
-    </div>
-  </div>  
+  </div>
+  <div class="col">
+    <label class="btn-secondary btn-group-sm custom-tooltip">
+      scraping | 
+    </label>
+    <label class="btn-group-sm custom-tooltip">
+    pandas | 
+    </label>
+    <label class="btn-secondary btn-group-sm custom-tooltip">
+    mapbox
+    </label>
+      <div class="card h-100">
+        <a target="_blank" href='https://shalakas.github.io/CJS_Project/' class="link-colour"><img src="map_photo.jpeg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <a target="_blank" href='https://shalakas.github.io/CJS_Project/' class="link-colour"><h5 class="card-title"><strong>Rotting Cases in Indian Courts</h5></strong></a>
+          <p class="card-text"> <a target="_blank" href='https://shalakas.github.io/CJS_Project/' class="link-colour">This map of five districts from Maharashtra state in India, shows murder cases that were pending at the end of 2022 - some of them for over 20 years.</a></p>
+        </div>
       </div>
     </div>
 </div>
+</div>
 
 <br>
 <br>
 
-<!--THIRD SECTION-->
+<div class="container-fluid headline-holder">
+  <p> <i class="fa-solid fa-pen-fancy"></i> Written Word </p>
+</div>
 
-<div class="container-fluid bg-3 text-left story-holder">
-  <p style="font-size: 30px;"> <i class="fa-solid fa-hourglass-half"></i> Topics I Followed Over Time </p>
+<hr>
+<br>
+
+<div class="container-fluid bg-4 text-center headline story-holder">    
+  <div class="row row-cols-1 row-cols-md-3 g-4">   
+    <div class="col"> 
+      <div class="card h-100">    
+        <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/pune-man-gets-death-penalty-for-sexual-assault-murder-of-2yrold-101646070225780.html'><img src="story_image.jpeg" class="card-img-top" alt="article image"></a>
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+          <p> <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/pune-man-gets-death-penalty-for-sexual-assault-murder-of-2yrold-101646070225780.html' class='link-colour'>Pune man gets death penalty for sexual assault, murder of 2-yr-old</a><br><small class="text-muted">Feb 28, 2022</small></p>
+          <p class="card-text">The principal district court in Pune sentenced a 39-year-old man to death for sexual assault and brutal murder of a two-year-five-month-old girl in February 2021. The trial was one of the fastest ones in its category, in the state, to have reached a conclusion within a year.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col"> 
+    <div class="card h-100">    
+      <a target="_blank" href='https://www.thequint.com/news/business/telecom-minister-ravi-shankar-prasad-refuses-penal-powers-telecom-regulator-trai-fight-call-drops-airtel-vodafone#read-more'><img src="https://images.thequint.com/thequint%2F2016-06%2F3ea63e2d-b85f-4db7-9f8c-fc5d8329571b%2FTRAI_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="article image"></a>
+      <div class="card-body">
+        <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+        <p> <a target="_blank" href='https://www.thequint.com/news/business/telecom-minister-ravi-shankar-prasad-refuses-penal-powers-telecom-regulator-trai-fight-call-drops-airtel-vodafone#read-more' class='link-colour'>
+          TRAI Wants Penal Powers; Telecom Minister Says Enough Already!</a><br><small class="text-muted">Jun 16, 2016</small></p>
+        <p class="card-text">Does India’s telecom regulator really need penal powers? I wrote a story about the long-standing debate about the regulatory body's demands. The Telecom Regulatory Authority of India (TRAI) seeks powers to penalise service providers – who fail to follow its regulations.</p>              
+    </div>
+  </div>
+</div>
+  
+      <div class="col"> 
+        <div class="card h-100">    
+          <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/tale-of-three-crime-families-of-pune-taak-dudhani-kalyani-31-members-and-1-100-cases-101612523725585.html'><img src="https://images.hindustantimes.com/img/2021/02/05/550x309/d7e6e8f8-67a1-11eb-8ce1-74979b633462_1612523724634.jpg" class="card-img-top" alt="article image"></a>
+          <div class="card-body">
+            <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+            <p> <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/tale-of-three-crime-families-of-pune-taak-dudhani-kalyani-31-members-and-1-100-cases-101612523725585.html' class='link-colour'>Tale of three crime families of Pune - Taak, Dudhani, Kalyani: 31 members and 1,100 cases</a><br><small class="text-muted">Feb 5, 2021</small></p>
+            <p class="card-text">At least 30 members of three families, collectively, have a record of over 1,000 cases against them until March 2020, as per the records maintained by the Pune city police. Due to a legal loophole, they have managed to stay out of jail.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col"> 
+      <div class="card h-100">    
+        <a target="_blank" href='https://www.hindustantimes.com/india-news/dog-racing-emerges-as-new-maharashtra-craze-activists-cry-foul/story-4K6CY7nwEl1dPGskthps1M.html'><img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/02/Pictures/h-t-dog-race-story_f158480e-5c1c-11ea-bcc0-e4d0c7a68e9a.JPG" class="card-img-top" alt="article image"></a>
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+          <p> <a target="_blank" href='https://www.hindustantimes.com/india-news/dog-racing-emerges-as-new-maharashtra-craze-activists-cry-foul/story-4K6CY7nwEl1dPGskthps1M.html' class='link-colour'>Dog racing emerges as new Maharashtra craze, activists cry foul</a><br><small class="text-muted">Mar 2, 2020</small></p>
+          <p class="card-text">The story traces the unknown world of dog racing in Maharashtra which has led to breeds like greyhounds to reach the most rural parts of the state. The dog race is a village event that is held with word-of-mouth publicity only. </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col"> 
+    <div class="card h-100">    
+      <a target="_blank" href='https://www.thequint.com/news/infographics/tamil-nadu-drowns-in-jayalalithaas-omnipresence#read-more'><img src="https://images.thequint.com/thequint%2F2016-02%2F45d5a5c1-d8c0-4ebf-b655-fa3b5d4e166b%2FOmnipresent_Amma_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="article image"></a>
+      <div class="card-body">
+        <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+        <p> <a target="_blank" href='https://www.thequint.com/news/infographics/tamil-nadu-drowns-in-jayalalithaas-omnipresence#read-more' class='link-colour'>Tamil Nadu Drowns in Jayalalithaa’s Omnipresence</a><br><small class="text-muted">May 19, 2016</small></p>
+        <p class="card-text">The story explores all the brands - food, medicine, alcohol - that are named after the now-deceased Chief Minister of Tamil Nadu, Jayalalithaa, who remained absent from public eye during 2015 floods in the state.</p>              
+    </div>
+  </div>
+</div>
+
+<div class="col"> 
+  <div class="card h-100">    
+    <a target="_blank" href='https://www.thequint.com/news/india/ceasefire-agreement-violation-jammu-kashmir-atal-bihari-vajpayee-manmohan-singh-narendra-modi-surgical-strike'><img src="https://images.thequint.com/thequint%2F2016-11%2F9bccc2f7-a0b1-463d-800f-4ae74e6df8ec%2F459a82c1-3cfc-43fb-ad03-d8fae4e1656e.jpg?rect=0%2C0%2C1024%2C576&auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="article image"></a>
+    <div class="card-body">
+      <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+      <p> <a target="_blank" href='https://www.thequint.com/news/india/ceasefire-agreement-violation-jammu-kashmir-atal-bihari-vajpayee-manmohan-singh-narendra-modi-surgical-strike' class='link-colour'>After 13 Years of Turmoil, Is the Ceasefire Agreement Redundant?</a><br><small class="text-muted">Nov 26, 2016</small></p>
+      <p class="card-text">The story explores all the brands - food, medicine, alcohol - that are named after the now-deceased Chief Minister of Tamil Nadu, Jayalalithaa, who remained absent from public eye during 2015 floods in the state.</p>              
+  </div>
+</div>
+</div>
+
+  
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="container-fluid headline-holder">
+  <p> <i class="fa-solid fa-video"></i> Video & Interactive Stories </p>
+</div>
+
+<hr>
+<br>
+
+<div class="container-fluid bg-4 text-center headline story-holder"> 
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <label class="btn-secondary btn-group-sm custom-tooltip">
+      phone camera | 
+      </label>
+      <label class="btn-group-sm custom-tooltip">
+      mobile editing 
+      </label>
+      <div class="card h-100">
+        <a target="_blank" href='https://fb.watch/ibSlJFzP0D/' class="link-colour"><img src="LGBT_parade.png" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+          <a target="_blank" href='https://fb.watch/ibSlJFzP0D/' class="link-colour"><h5 class="card-title"><strong>LGBTQ+ Pride Parade of Pune</h5></strong></a>
+          <p class="card-text">This is a video-story of Pune city's pride parade held in 2017. I shot this video on my mobile phone, edited it on iMovies, and published it on the Facebook page of Hindustan Times.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <label class="btn-secondary btn-group-sm custom-tooltip">
+        production | 
+        </label>
+        <label class="btn-group-sm custom-tooltip">
+        script 
+        </label>
+      <div class="card h-100">
+        <a target="_blank" href='https://www.thequint.com/fit/health-news/will-banning-rented-wombs-really-end-the-risks-of-surrogacy-regulation-bill-2' class="link-colour"><img src="https://images.thequint.com/thequint%2F2016-09%2F0ef85e68-ac5b-48d0-b065-7abbc9100eb0%2FTwitter_video.gif?auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+          <a target="_blank" href='https://www.thequint.com/fit/health-news/will-banning-rented-wombs-really-end-the-risks-of-surrogacy-regulation-bill-2#read-more' class="link-colour"><h5 class="card-title"><strong>Will Banning Rented Wombs Really End the Risks of Surrogacy?</h5></strong></a>
+          <p class="card-text">In 2016, the Indian government changed the surrogacy guidelines to ban commercial surrogacy in the country.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <label class="btn-secondary btn-group-sm custom-tooltip">
+      production | 
+      </label>
+      <label class="btn-group-sm custom-tooltip">
+        script 
+        </label>
+      <div class="card h-100">
+        <a target="_blank" href='https://www.thequint.com/fit/health-news/decade-long-war-against-female-foeticide-dismissed-within-minutes-2#read-more' class="link-colour"><img src="https://images.thequint.com/thequint%2F2016-09%2F657b5f38-019c-4e6a-9852-defc6f17526d%2FMitu_Khurana_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=300" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+          <a target="_blank" href='https://www.thequint.com/fit/health-news/decade-long-war-against-female-foeticide-dismissed-within-minutes-2#read-more' class="link-colour"><h5 class="card-title"><strong>Decade-Long War Against Female Foeticide Cut Short Within Minutes</h5></strong></a>
+          <p class="card-text">Story of Doctor Mitu Khurana who was the first woman in India to wage a legal war against female foeticide under the Pre-Conception and Pre-Natal Diagnostic Techniques Act, 1994.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <label class="btn-secondary btn-group-sm custom-tooltip">
+      timeline | 
+      </label>
+      <label class="btn-secondary btn-group-sm custom-tooltip">
+      TikiToki | 
+      </label>
+      <div class="card h-100">
+        <a target="_blank" href='https://www.thequint.com/news/india/december-16-2012-to-december-16-2015-what-happened-to-nirbhaya#read-more' class="link-colour"><img src="https://images.thequint.com/thequint%2F2015-12%2F0ccebcf0-687c-4d21-ade0-27fa97b98e7e%2FNIRBHAYA_HERO.jpg?auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+          <a target="_blank" href='https://www.thequint.com/news/india/december-16-2012-to-december-16-2015-what-happened-to-nirbhaya#read-more' class="link-colour"><h5 class="card-title"><strong>A Timeline of Remembrance: Nirbhaya’s 16 December Nightmare</h5></strong></a>
+          <p class="card-text">I made this <a target="_blank" href="http://www.tiki-toki.com/timeline/entry/570984/DELHI-GANGRAPE/"> interactive timeline </a> of the incident and aftermath of the Delhi sexual assault and murder case that caused nation-wide outrage and led to policy changes.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <label class="btn-secondary btn-group-sm custom-tooltip">
+      timeline | 
+      </label>
+      <label class="btn-secondary btn-group-sm custom-tooltip">
+      TikiToki | 
+      </label>
+      <div class="card h-100">
+        <a target="_blank" href='https://www.thequint.com/news/india/revisit-2611-terror-trail-with-the-quints-interactive-timeline#read-more' class="link-colour"><img src="https://images.thequint.com/thequint%2F2015-11%2F6691bd1b-b48a-4a2e-a81d-3b27a3059df7%2FHERO.jpg?auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+          <a target="_blank" href='https://www.thequint.com/news/india/revisit-2611-terror-trail-with-the-quints-interactive-timeline#read-more' class="link-colour"><h5 class="card-title"><strong>Revisit 26/11 Terror Trail With The Quint’s Interactive Timeline</h5></strong></a>
+          <p class="card-text">I made this <a target="_blank" href="http://www.tiki-toki.com/timeline/entry/352410/November-26-2008-Mumbai/"> interactive timeline </a> of the 26/11 terror attacks in Mumbai that left over 160 dead.</p>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<br>
+<br>
+
+<!-- covid, flood coverage, sangli custodial death coverage -->
+
+<div class="container-fluid headline-holder">
+  <p> <i class="fa-solid fa-hourglass-half"></i> Topics I Followed Over Time </p>
 </div>
 
   <hr>
   <br>
 
 <div class="container-fluid bg-4 headline story-holder link-colour">    
-  <div class="card mb-3" style="max-height: 260px;">
+  <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4">
-          <a target="_blank" href='https://pbs.twimg.com/media/E3al3btUYAURduZ?format=png&name=large'><img src="https://images.hindustantimes.com/img/2021/06/13/550x309/e2906a1c-cc38-11eb-b0cf-a00e9b339624_1623583174887.jpg" class="img-fluid rounded-start" style="max-width:100%;height:260px;"></a>
+          <a target="_blank" href='https://pbs.twimg.com/media/E3al3btUYAURduZ?format=png&name=large'><img src="https://images.hindustantimes.com/img/2021/06/13/550x309/e2906a1c-cc38-11eb-b0cf-a00e9b339624_1623583174887.jpg" class="img-fluid rounded-start img-size"></a>
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -320,10 +392,10 @@ hr {
 <br>
 
 <div class="container-fluid bg-4 headline story-holder link-colour">    
-  <div class="card mb-3" style="max-height: 260px;">
+  <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4">
-          <a target="_blank" href='https://pbs.twimg.com/media/E3al3btUYAURduZ?format=png&name=large'><img src="https://images.hindustantimes.com/img/2021/06/13/550x309/e2906a1c-cc38-11eb-b0cf-a00e9b339624_1623583174887.jpg" class="img-fluid rounded-start" style="max-width:100%;height:260px;"></a>
+          <a target="_blank" href='https://pbs.twimg.com/media/E3al3btUYAURduZ?format=png&name=large'><img src="https://images.hindustantimes.com/img/2021/06/13/550x309/e2906a1c-cc38-11eb-b0cf-a00e9b339624_1623583174887.jpg" class="img-fluid rounded-start img-size"></a>
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -358,10 +430,10 @@ hr {
   <br>
 
   <div class="container-fluid bg-4 headline story-holder link-colour">    
-    <div class="card mb-3" style="max-height: 260px;">
+    <div class="card mb-3">
       <div class="row g-0">
         <div class="col-md-4">
-            <a target="_blank" href='https://pbs.twimg.com/media/E3al3btUYAURduZ?format=png&name=large'><img src="https://images.hindustantimes.com/img/2021/06/13/550x309/e2906a1c-cc38-11eb-b0cf-a00e9b339624_1623583174887.jpg" class="img-fluid rounded-start" style="max-width:100%;height:260px;"></a>
+            <a target="_blank" href='https://pbs.twimg.com/media/E3al3btUYAURduZ?format=png&name=large'><img src="https://images.hindustantimes.com/img/2021/06/13/550x309/e2906a1c-cc38-11eb-b0cf-a00e9b339624_1623583174887.jpg" class="img-fluid rounded-start img-size"></a>
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -396,10 +468,10 @@ hr {
 <!--TRIAL ENDS HERE-->
 
 <br>
-<footer class="footer has-text-centered">
+<footer class="footer text-center">
   <p>© 2023 -- Shalaka Shinde</p>
   <p>
-  <a href="javascript:location='mailto:\u0073\u0068\u0061\u006c\u0061\u006b\u0061\u0073\u0068\u0069\u006e\u0064\u0065\u0032\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0" class="link-secondary"><script type="text/javascript">document.write('\u0073\u0068\u0061\u006c\u0061\u006b\u0061\u0073\u0068\u0069\u006e\u0064\u0065\u0032\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a> | <a href="javascript:location='mailto:\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075';void 0"><script type="text/javascript">document.write('\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075')</script></a>
+  <a href="javascript:location='mailto:\u0073\u0068\u0061\u006c\u0061\u006b\u0061\u0073\u0068\u0069\u006e\u0064\u0065\u0032\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0" class="link-secondary"><script type="text/javascript">document.write('\u0073\u0068\u0061\u006c\u0061\u006b\u0061\u0073\u0068\u0069\u006e\u0064\u0065\u0032\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a> | <a href="javascript:location='mailto:\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075';void 0" class="link-secondary"><script type="text/javascript">document.write('\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075')</script></a>
   </p> 
 </footer>
 

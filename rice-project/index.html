@@ -8,10 +8,13 @@
 
 <style>
 
+.story-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
-    margin-left: 150px;
-    max-width: 1100px;
-    margin-right: 150px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -26,16 +29,8 @@ h4 {
 }
 
 .header-image {
-    width: 1100px;
-    height: 300px;
-    align-items: center;
-    align-items: center;
-}
-
-.for-table {
-    width: 100px;
-    height: 100px;
-    padding:3px; 
+    max-width: 100%;
+    height: auto;
 }
 
 #highlight {
@@ -63,6 +58,7 @@ td {
 <body>
     <br>
     <br>
+    <div class="story-container">
     <h1>World's Largest Rice Exporter Country Produces Less Than China</h1>
     <h4>India produces less rice than China. India also uses more agricultural land than China for paddy. But it is India's policy decision to curb rice exports that could affect the rice prices in multiple parts of the world. It is a potential cause of concern for rice-lovers of the countries that do not produce enough rice of their own.</h4>
     <p><small><a href="https://shalakas.github.io/">Shalaka Shinde </a>| Feb 5, 2022</small></p>
@@ -75,18 +71,8 @@ td {
     <br>
     <em>* The prompt for this story was "something you miss from home".</em> <br>
     <em>* My answer was, "I miss eating rice-dal with my family"</em>
-    <table align-label="center">
-        <caption><h2>Most Produced Grains of the World in 2021</h2></caption>
-        <caption> <small>Source: Food and Agriculture Organization of the United Nations </small></caption>
-        <tr>
-            <td><img class="for-table" src="corn.jpg" alt="thumbnail for corn"><br>MAIZE (CORN) <br> 170 countries produced 1210 million tonne</td>
-            
-            <td><img id="highlight" class="for-table" src="rice.jpg" alt="thumbnail for rice"><br>RICE <br>142 countries produced 787 million tonne</td>
-            
-            <td><img class="for-table" src="wheat.jpg" alt="thumbnail for wheat"><br>WHEAT <br>125 countries produced 770 million tonne</td>
-        </tr>
-    </table>
-<p> <strong>New York:</strong> Rice forms an essential part of diets of a number of countries all over the world. It is the second largest produced grain in the world, in constant competition with wheat and maize (corn). The uses of rice range from making of a quick meal to drying out your phone to making bad-quality adhesive to making Japanese sake. &#128521; The highest amount of rice is grown in China. The hybrid paddy agriculture methods have revolutionised China's rice production in the past few decades. With such a monopoly on production, it is the policy decisions of China's neighboring country, India, that affect the world more than China's.</p>
+  
+<p> Rice forms an essential part of diets of a number of countries all over the world. It is the second largest produced grain in the world, in constant competition with wheat and maize (corn). The uses of rice range from making of a quick meal to drying out your phone to making bad-quality adhesive to making Japanese sake. &#128521; The highest amount of rice is grown in China. The hybrid paddy agriculture methods have revolutionised China's rice production in the past few decades. With such a monopoly on production, it is the policy decisions of China's neighboring country, India, that affect the world more than China's.</p>
 
 <iframe title="Top 10 Rice Producing Countries (2011-21)" aria-label="Bar Chart" id="datawrapper-chart-gZQ9E" src="https://datawrapper.dwcdn.net/gZQ9E/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="431" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
@@ -100,14 +86,15 @@ td {
 
 <p> The farming methods of China has ensured that the amount of rice it can extract from paddy farms is higher than the variety in India. Chinese scientist Yuan Longping's research, as written in his paper "Male Sterility in Rice" and published in 1966, helped China develop world's first hybrid rice variety, according to <a href="https://www.nature.com/articles/s41477-021-00962-6">Nature journal</a>. This enables China to produce more rice than India, second largest producer, with much less land dedicated to paddy than India.</p>
 
-<img src="agri_vs_rice_20.png" alt="waffle chart of rice land" class="center">
+<img src="agri_vs_rice_20.png" alt="waffle chart of rice land" class="center header-image">
 
 <p>However, it still imports large quantities of <a href="https://www.reuters.com/world/india/india-imposes-20-duty-rice-exports-various-grades-2022-09-08/"> broken rice </a> from India. So when the Indian government announced a complete ban on export of broken rice, it became a cause for concern for countries like China that import broken rice from India. The reason for India's domination in rice exports is due to the overproduction of rice in the country.</p>
 
-<img src="production_vs_consumption.png" alt="waffle chart of rice" class="center">
+<img src="production_vs_consumption.png" alt="waffle chart of rice" class="center header-image">
 <p> Export of rice at cheaper rates than its competitors is fueled by the government's purchase of large quantities of rice and wheat from farmers. News reports cited reasons like water-stress and untimely rain and resultant low rice yeild of India. However, for an Indian missing rice from home in New York, it means increasing cost of comfort food. </p>
 <br>
 <em><a href="https://github.com/ShalakaS/understanding-rice-trade">GitHub repository </a> of the project. </em>
+</div>
 </body>
 
 <footer class="center">

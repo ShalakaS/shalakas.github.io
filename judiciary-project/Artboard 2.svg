@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 798 863.37">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        font-size: 18px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-10 {
+        fill: #c8c5de;
+      }
+
+      .cls-11 {
+        fill: #585281;
+      }
+
+      .cls-2 {
+        stroke-width: 1.07px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-linejoin: round;
+      }
+
+      .cls-6, .cls-7, .cls-12, .cls-8 {
+        font-size: 13px;
+      }
+
+      .cls-13 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-14 {
+        font-size: 37px;
+      }
+
+      .cls-14, .cls-12 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-15 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-16 {
+        font-family: Helvetica, Helvetica;
+        font-size: 11px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-12, .cls-8 {
+        fill: #4d4d4d;
+      }
+
+      .cls-3 {
+        stroke-width: .53px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="88.59" y="152.35" width="654.87" height="662.61"/>
+    </clipPath>
+  </defs>
+  <g class="cls-9">
+    <line class="cls-3" x1="192.78" y1="814.96" x2="192.78" y2="152.35"/>
+    <line class="cls-3" x1="341.61" y1="814.96" x2="341.61" y2="152.35"/>
+    <line class="cls-3" x1="490.45" y1="814.96" x2="490.45" y2="152.35"/>
+    <line class="cls-3" x1="639.28" y1="814.96" x2="639.28" y2="152.35"/>
+    <line class="cls-2" x1="88.59" y1="800.86" x2="743.46" y2="800.86"/>
+    <line class="cls-2" x1="88.59" y1="777.36" x2="743.46" y2="777.36"/>
+    <line class="cls-2" x1="88.59" y1="753.87" x2="743.46" y2="753.87"/>
+    <line class="cls-2" x1="88.59" y1="730.37" x2="743.46" y2="730.37"/>
+    <line class="cls-2" x1="88.59" y1="706.87" x2="743.46" y2="706.87"/>
+    <line class="cls-2" x1="88.59" y1="683.38" x2="743.46" y2="683.38"/>
+    <line class="cls-2" x1="88.59" y1="659.88" x2="743.46" y2="659.88"/>
+    <line class="cls-2" x1="88.59" y1="636.38" x2="743.46" y2="636.38"/>
+    <line class="cls-2" x1="88.59" y1="612.89" x2="743.46" y2="612.89"/>
+    <line class="cls-2" x1="88.59" y1="589.39" x2="743.46" y2="589.39"/>
+    <line class="cls-2" x1="88.59" y1="565.89" x2="743.46" y2="565.89"/>
+    <line class="cls-2" x1="88.59" y1="542.4" x2="743.46" y2="542.4"/>
+    <line class="cls-2" x1="88.59" y1="518.9" x2="743.46" y2="518.9"/>
+    <line class="cls-2" x1="88.59" y1="495.4" x2="743.46" y2="495.4"/>
+    <line class="cls-2" x1="88.59" y1="471.91" x2="743.46" y2="471.91"/>
+    <line class="cls-2" x1="88.59" y1="448.41" x2="743.46" y2="448.41"/>
+    <line class="cls-2" x1="88.59" y1="424.91" x2="743.46" y2="424.91"/>
+    <line class="cls-2" x1="88.59" y1="401.42" x2="743.46" y2="401.42"/>
+    <line class="cls-2" x1="88.59" y1="377.92" x2="743.46" y2="377.92"/>
+    <line class="cls-2" x1="88.59" y1="354.42" x2="743.46" y2="354.42"/>
+    <line class="cls-2" x1="88.59" y1="330.93" x2="743.46" y2="330.93"/>
+    <line class="cls-2" x1="88.59" y1="307.43" x2="743.46" y2="307.43"/>
+    <line class="cls-2" x1="88.59" y1="283.93" x2="743.46" y2="283.93"/>
+    <line class="cls-2" x1="88.59" y1="260.43" x2="743.46" y2="260.43"/>
+    <line class="cls-2" x1="88.59" y1="236.94" x2="743.46" y2="236.94"/>
+    <line class="cls-2" x1="88.59" y1="213.44" x2="743.46" y2="213.44"/>
+    <line class="cls-2" x1="88.59" y1="189.94" x2="743.46" y2="189.94"/>
+    <line class="cls-2" x1="88.59" y1="166.45" x2="743.46" y2="166.45"/>
+    <line class="cls-2" x1="118.36" y1="814.96" x2="118.36" y2="152.35"/>
+    <line class="cls-2" x1="267.2" y1="814.96" x2="267.2" y2="152.35"/>
+    <line class="cls-2" x1="416.03" y1="814.96" x2="416.03" y2="152.35"/>
+    <line class="cls-2" x1="564.86" y1="814.96" x2="564.86" y2="152.35"/>
+    <line class="cls-2" x1="713.7" y1="814.96" x2="713.7" y2="152.35"/>
+    <rect class="cls-10" x="209.92" y="155.87" width="503.77" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="155.87" width="91.56" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="179.37" width="112.93" height="21.15"/>
+    <rect class="cls-10" x="231.3" y="179.37" width="482.4" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="202.86" width="53.34" height="21.15"/>
+    <rect class="cls-10" x="171.7" y="202.86" width="541.99" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="226.36" width="69.65" height="21.15"/>
+    <rect class="cls-10" x="188.02" y="226.36" width="525.68" height="21.15"/>
+    <rect class="cls-10" x="203.43" y="249.86" width="510.26" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="249.86" width="85.07" height="21.15"/>
+    <rect class="cls-10" x="167.54" y="273.36" width="546.16" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="273.36" width="49.17" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="296.85" width="90.19" height="21.15"/>
+    <rect class="cls-10" x="208.55" y="296.85" width="505.14" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="320.35" width="74.42" height="21.15"/>
+    <rect class="cls-10" x="192.78" y="320.35" width="520.92" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="343.85" width="39.29" height="21.15"/>
+    <rect class="cls-10" x="157.65" y="343.85" width="556.04" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="367.34" width="64.36" height="21.15"/>
+    <rect class="cls-10" x="182.72" y="367.34" width="530.98" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="390.84" width="37.68" height="21.15"/>
+    <rect class="cls-10" x="156.05" y="390.84" width="557.65" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="414.34" width="35.01" height="21.15"/>
+    <rect class="cls-10" x="153.37" y="414.34" width="560.33" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="437.83" width="45.78" height="21.15"/>
+    <rect class="cls-10" x="164.14" y="437.83" width="549.55" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="461.33" width="26.25" height="21.15"/>
+    <rect class="cls-10" x="144.62" y="461.33" width="569.08" height="21.15"/>
+    <rect class="cls-10" x="153.37" y="484.83" width="560.33" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="484.83" width="35.01" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="508.32" width="48.58" height="21.15"/>
+    <rect class="cls-10" x="166.94" y="508.32" width="546.76" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="531.82" width="57.87" height="21.15"/>
+    <rect class="cls-10" x="176.23" y="531.82" width="537.47" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="555.32" width="64.95" height="21.15"/>
+    <rect class="cls-10" x="183.31" y="555.32" width="530.38" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="578.81" width="30.54" height="21.15"/>
+    <rect class="cls-10" x="148.9" y="578.81" width="564.79" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="602.31" width="25.6" height="21.15"/>
+    <rect class="cls-10" x="143.96" y="602.31" width="569.74" height="21.15"/>
+    <rect class="cls-10" x="150.27" y="625.81" width="563.42" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="625.81" width="31.91" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="649.3" width="37.98" height="21.15"/>
+    <rect class="cls-10" x="156.34" y="649.3" width="557.35" height="21.15"/>
+    <rect class="cls-10" x="136.58" y="672.8" width="577.12" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="672.8" width="18.22" height="21.15"/>
+    <rect class="cls-10" x="164.14" y="696.3" width="549.55" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="696.3" width="45.78" height="21.15"/>
+    <rect class="cls-10" x="130.74" y="719.79" width="582.95" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="719.79" width="12.38" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="743.29" width="19.53" height="21.15"/>
+    <rect class="cls-10" x="137.89" y="743.29" width="575.81" height="21.15"/>
+    <rect class="cls-10" x="137.23" y="766.79" width="576.46" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="766.79" width="18.87" height="21.15"/>
+    <rect class="cls-11" x="118.36" y="790.28" width="24.83" height="21.15"/>
+    <rect class="cls-10" x="143.19" y="790.28" width="570.51" height="21.15"/>
+    <text class="cls-16" transform="translate(219.98 170.4)"><tspan x="0" y="0">15.38 % women appointed</tspan></text>
+    <text class="cls-16" transform="translate(241.35 193.89)"><tspan x="0" y="0">19</tspan></text>
+    <text class="cls-16" transform="translate(184.81 217.39)"><tspan x="0" y="0">9</tspan></text>
+    <text class="cls-16" transform="translate(201.13 240.89)"><tspan x="0" y="0">12</tspan></text>
+    <text class="cls-16" transform="translate(213.49 264.38)"><tspan x="0" y="0">14</tspan></text>
+    <text class="cls-16" transform="translate(180.65 287.88)"><tspan x="0" y="0">8</tspan></text>
+    <text class="cls-16" transform="translate(218.61 311.38)"><tspan x="0" y="0">15</tspan></text>
+    <text class="cls-16" transform="translate(205.89 334.87)"><tspan x="0" y="0">12</tspan></text>
+    <text class="cls-16" transform="translate(173.82 358.37)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-16" transform="translate(192.77 381.87)"><tspan x="0" y="0">11</tspan></text>
+    <text class="cls-16" transform="translate(169.16 405.36)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-16" transform="translate(166.48 428.86)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-16" transform="translate(177.25 452.36)"><tspan x="0" y="0">8</tspan></text>
+    <text class="cls-16" transform="translate(157.73 475.85)"><tspan x="0" y="0">4</tspan></text>
+    <text class="cls-16" transform="translate(166.48 499.35)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-16" transform="translate(180.05 522.85)"><tspan x="0" y="0">8</tspan></text>
+    <text class="cls-16" transform="translate(189.34 546.35)"><tspan x="0" y="0">10</tspan></text>
+    <text class="cls-16" transform="translate(193.36 569.84)"><tspan x="0" y="0">11</tspan></text>
+    <text class="cls-16" transform="translate(162.01 593.34)"><tspan x="0" y="0">5</tspan></text>
+    <text class="cls-16" transform="translate(160.13 616.84)"><tspan x="0" y="0">4</tspan></text>
+    <text class="cls-16" transform="translate(163.38 640.33)"><tspan x="0" y="0">5</tspan></text>
+    <text class="cls-16" transform="translate(169.45 663.83)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-16" transform="translate(149.69 687.33)"><tspan x="0" y="0">3</tspan></text>
+    <text class="cls-16" transform="translate(177.25 710.82)"><tspan x="0" y="0">8</tspan></text>
+    <text class="cls-16" transform="translate(143.85 734.32)"><tspan x="0" y="0">2</tspan></text>
+    <text class="cls-16" transform="translate(151 757.82)"><tspan x="0" y="0">3</tspan></text>
+    <text class="cls-16" transform="translate(150.34 781.31)"><tspan x="0" y="0">3</tspan></text>
+    <text class="cls-16" transform="translate(156.3 804.81)"><tspan x="0" y="0">4</tspan></text>
+  </g>
+  <text class="cls-12" transform="translate(83.65 804.09)"><tspan x="0" y="0">1994</tspan></text>
+  <text class="cls-12" transform="translate(83.65 780.6)"><tspan x="0" y="0">1995</tspan></text>
+  <text class="cls-12" transform="translate(83.65 757.1)"><tspan x="0" y="0">1996</tspan></text>
+  <text class="cls-12" transform="translate(83.65 733.6)"><tspan x="0" y="0">1997</tspan></text>
+  <text class="cls-12" transform="translate(83.65 710.11)"><tspan x="0" y="0">1998</tspan></text>
+  <text class="cls-12" transform="translate(83.65 686.61)"><tspan x="0" y="0">1999</tspan></text>
+  <text class="cls-12" transform="translate(83.65 663.11)"><tspan x="0" y="0">2000</tspan></text>
+  <text class="cls-12" transform="translate(83.65 639.61)"><tspan x="0" y="0">2001</tspan></text>
+  <text class="cls-12" transform="translate(83.65 616.12)"><tspan x="0" y="0">2002</tspan></text>
+  <text class="cls-12" transform="translate(83.65 592.62)"><tspan x="0" y="0">2003</tspan></text>
+  <text class="cls-12" transform="translate(83.65 569.12)"><tspan x="0" y="0">2004</tspan></text>
+  <text class="cls-12" transform="translate(83.65 545.63)"><tspan x="0" y="0">2005</tspan></text>
+  <text class="cls-12" transform="translate(83.65 522.13)"><tspan x="0" y="0">2006</tspan></text>
+  <text class="cls-12" transform="translate(83.65 498.63)"><tspan x="0" y="0">2007</tspan></text>
+  <text class="cls-12" transform="translate(83.65 475.14)"><tspan x="0" y="0">2008</tspan></text>
+  <text class="cls-12" transform="translate(83.65 451.64)"><tspan x="0" y="0">2009</tspan></text>
+  <text class="cls-12" transform="translate(83.65 428.14)"><tspan x="0" y="0">2010</tspan></text>
+  <text class="cls-12" transform="translate(83.65 404.65)"><tspan x="0" y="0">2011</tspan></text>
+  <text class="cls-12" transform="translate(83.65 381.15)"><tspan x="0" y="0">2012</tspan></text>
+  <text class="cls-12" transform="translate(83.65 357.65)"><tspan x="0" y="0">2013</tspan></text>
+  <text class="cls-12" transform="translate(83.65 334.16)"><tspan x="0" y="0">2014</tspan></text>
+  <text class="cls-12" transform="translate(83.65 310.66)"><tspan x="0" y="0">2015</tspan></text>
+  <text class="cls-12" transform="translate(83.65 287.16)"><tspan x="0" y="0">2016</tspan></text>
+  <text class="cls-12" transform="translate(83.65 263.67)"><tspan x="0" y="0">2017</tspan></text>
+  <text class="cls-12" transform="translate(83.65 240.17)"><tspan x="0" y="0">2018</tspan></text>
+  <text class="cls-12" transform="translate(83.65 216.67)"><tspan x="0" y="0">2019</tspan></text>
+  <text class="cls-12" transform="translate(83.65 193.18)"><tspan x="0" y="0">2020</tspan></text>
+  <text class="cls-12" transform="translate(83.65 169.68)"><tspan x="0" y="0">2021</tspan></text>
+  <text class="cls-8" transform="translate(122.86 836.35)"><tspan x="0" y="0">0</tspan></text>
+  <text class="cls-8" transform="translate(418.02 836.35)"><tspan x="0" y="0">50</tspan></text>
+  <text class="cls-8" transform="translate(691.19 836.35)"><tspan x="0" y="0">100</tspan></text>
+  <text class="cls-6" transform="translate(332.82 856.97)"><tspan class="cls-13" x="0" y="0">P</tspan><tspan x="8.03" y="0">ercent of judges appointed</tspan></text>
+  <rect class="cls-10" x="242.47" y="134.49" width="15.86" height="15.86"/>
+  <rect class="cls-11" x="146.4" y="134.49" width="15.86" height="15.86"/>
+  <text class="cls-6" transform="translate(261.56 147.52)"><tspan x="0" y="0">men</tspan></text>
+  <text class="cls-7" transform="translate(165.88 147.42)"><tspan x="0" y="0">women</tspan></text>
+  <text class="cls-14" transform="translate(66.71 39.03) scale(.83 1)"><tspan x="0" y="0">Rise of </tspan><tspan class="cls-4" x="133.64" y="0">W</tspan><tspan x="167.89" y="0">omen in HC Judiciary at Snail Speed</tspan></text>
+  <text class="cls-5" transform="translate(81.35 75.87)"><tspan x="0" y="0">There is a sporadic rise in the percent of women appointed as judges in the </tspan><tspan x="0" y="21.6">High Courts of India since the collegium system came into place. Howeve</tspan><tspan class="cls-15" x="585.27" y="21.6">r</tspan><tspan x="590.27" y="21.6">, </tspan><tspan x="0" y="43.2">it is not nearly enough to match the number of men.</tspan></text>
+</svg>

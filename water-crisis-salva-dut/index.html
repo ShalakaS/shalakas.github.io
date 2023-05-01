@@ -1315,7 +1315,7 @@
         .setup({
           step: "#scrolly .steps-container .step",
           offset: 0.75,
-          debug: true,
+          debug: false,
         })
         .onStepEnter(function ({ element, index, direction }) {
           const event = new CustomEvent("stepin", { detail: { direction: direction } })

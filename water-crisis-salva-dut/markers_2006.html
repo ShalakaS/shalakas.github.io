@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1972e1e7aeb249b1c7f4805406046d1a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+
+                .custom-tooltip {
+                font-size: 20px;
+                width: auto;
+                height: 110px;
+                opacity: 0.1;
+                background-color: rgb(134, 195, 217);
+                font-family: 'Times New Roman', Times, serif;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1972e1e7aeb249b1c7f4805406046d1a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1972e1e7aeb249b1c7f4805406046d1a = L.map(
+                "map_1972e1e7aeb249b1c7f4805406046d1a",
+                {
+                    center: [8.17503745750486, 27.256455664973267],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8.45,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            var redIcon = L.icon({
+            iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            tooltipAnchor: [16, -28],
+            shadowSize: [41, 41]
+        });
+        
+    
+            var tile_layer_d3ae46a80af3020d554d1ec8c6d2d807 = L.tileLayer(
+                "https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"https://www.openstreetmap.org/copyright\"\u003eCyclOSM\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"https://github.com/cyclosm/cyclosm-cartocss-style/releases\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+
+            
+             // create a popup object with a custom class and set the content to be the text annotation
+            // Create a tooltip and add it to the map
+            var tooltip = L.tooltip({permanent: true, direction: "center", className: "custom-tooltip"})
+                .setLatLng([8.210908952347802, 25.14720709303254])
+                .setContent("2006 <br> TEXT TEXT TEXT <br> TEXT TEXT TEXT <br> TEXT TEXT TEXT")
+                .addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+
+            var marker = L.marker([8.217253, 29.243952], 
+            {icon: redIcon}).addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+    
+            var marker_293781a81e2ee2e39d528dfbe772b352 = L.marker(
+                [8.554444444, 29.09416667],
+                {}
+            ).addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+        
+    
+            var marker_ef913a5818b4521972e716200030aae2 = L.marker(
+                [8.616111111, 29.01055556],
+                {}
+            ).addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+        
+    
+            var marker_3bcdb1577a6de102719d64eed3c8bab5 = L.marker(
+                [8.698611111, 28.97888889],
+                {}
+            ).addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+        
+    
+            var marker_7fcdb3029abc7359b234181d5195de1d = L.marker(
+                [8.653055556, 30.58972222],
+                {}
+            ).addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+        
+    
+            var marker_1ea48be01fdb1f467b6eda6cf5429269 = L.marker(
+                [8.593055556, 28.71944444],
+                {}
+            ).addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+        
+    
+            var marker_2bb2d3e201205da31474b00780a7a9f8 = L.marker(
+                [8.188888889, 28.89638889],
+                {}
+            ).addTo(map_1972e1e7aeb249b1c7f4805406046d1a);
+        
+</script>
+</html>

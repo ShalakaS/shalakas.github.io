@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eed62f4b44034796eb95eee621e168c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+
+                .custom-tooltip {
+                font-size: 20px;
+                width: auto;
+                height: 110px;
+                opacity: 0.1;
+                background-color: rgb(134, 195, 217);
+                font-family: 'Times New Roman', Times, serif;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eed62f4b44034796eb95eee621e168c9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eed62f4b44034796eb95eee621e168c9 = L.map(
+                "map_eed62f4b44034796eb95eee621e168c9",
+                {
+                    center: [8.17503745750486, 27.256455664973267],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8.45,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            var redIcon = L.icon({
+            iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            tooltipAnchor: [16, -28],
+            shadowSize: [41, 41]
+        });
+
+        
+    
+            var tile_layer_91174b478c8326957bb29fb75d24cb72 = L.tileLayer(
+                "https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"https://www.openstreetmap.org/copyright\"\u003eCyclOSM\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"https://github.com/cyclosm/cyclosm-cartocss-style/releases\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+
+            var tooltip = L.tooltip({permanent: true, direction: "center", className: "custom-tooltip"})
+                .setLatLng([8.210908952347802, 25.14720709303254])
+                .setContent("2008 <br> WFSS bought its own equipment after two years of rental services. <br> The now-disputed, oil-rich Abyei region is embroiled in violence.")
+                .addTo(map_eed62f4b44034796eb95eee621e168c9);
+
+            var marker = L.marker([8.217253, 29.243952], 
+            {icon: redIcon}).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_a570ca76e87c535dc6a3a5eebbe57630 = L.marker(
+                [8.554444444, 29.09416667],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_11ea430a635f5675c5db9e80fe5cdb5b = L.marker(
+                [8.616111111, 29.01055556],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_32cf291d981f4844508506e36ca5e929 = L.marker(
+                [8.698611111, 28.97888889],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_fddaf35fe219af8cfa27b5a22397618f = L.marker(
+                [8.653055556, 30.58972222],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_d4dbce1284b23453987bf3b2898bb3f9 = L.marker(
+                [8.593055556, 28.71944444],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_a4796f28f900269146bd70e8c05bea17 = L.marker(
+                [8.188888889, 28.89638889],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_e09122263536dd494ed97428c2aab833 = L.marker(
+                [8.719166667, 28.95694444],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_80e915c8d68923f406c8a1ca28e684c2 = L.marker(
+                [8.653333333, 55.35],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_fa7388d15c96f3e2776c5fece1ddce3c = L.marker(
+                [8.674722222, 28.91194444],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_c63fbb6341a75c34e4d6580fca215488 = L.marker(
+                [8.658888889, 28.97944444],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_6458dc1e3e2cb11c04770aadd2fe347d = L.marker(
+                [8.663055556, 29.04333333],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_3bee81da053be84fa3b07bc951b4b6cb = L.marker(
+                [8.610555556, 28.96944444],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_7b87adb9f53eec1319dadad877ad1613 = L.marker(
+                [8.741944444, 28.87722222],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_007decb9d24947ebf5301d65f2a1fce1 = L.marker(
+                [8.614285, 28.745443],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_e8a81b63f50d9e7a829fad1cf7c9f892 = L.marker(
+                [8.601666667, 28.71416667],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_01ba6c375624889a287022fa4958e669 = L.marker(
+                [8.306762, 27.912833],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_9dd08b27d118c84296d0cad899a8d0ce = L.marker(
+                [8.308124, 27.97594],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_b297b4e1156b749948492b77f4636e9c = L.marker(
+                [8.305501, 27.974567],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_d84ff5470aaa25a9476c8e782b7a726c = L.marker(
+                [8.310846, 27.979081],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_dd0f10e2f7510d10002ddd2034b3bce8 = L.marker(
+                [8.31338, 27.986028],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_ce6374f976c357a38f05a036b1488e4e = L.marker(
+                [8.303265, 27.986303],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_92d92ed85ce15101a6a46cbd84c8903c = L.marker(
+                [8.312885, 27.988962],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_6b11d2338a268b110fff6ac8eaa70e8b = L.marker(
+                [8.310069, 27.967935],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+    
+            var marker_8431cba8f754a2994da5c10b30413048 = L.marker(
+                [8.356901, 27.924302],
+                {}
+            ).addTo(map_eed62f4b44034796eb95eee621e168c9);
+        
+</script>
+</html>

@@ -51,14 +51,16 @@ video {
 .step {
   margin: 0 auto 2rem auto;
   margin-bottom: 25rem;
-  background-color: #b66e6e66;
+  background-color: rgba(134, 195, 217, 0.664);
   color: black;
 }
 
 .step p {
   text-align: center;
   padding: 1rem;
+  text-shadow: 0.75px 0 #181452;
 }
+
 
 .hidden {
   visibility: hidden;
@@ -100,7 +102,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: left;
 }
 

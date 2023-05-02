@@ -141,43 +141,47 @@
 
       <div class="steps-container">
         <div class="step">
-          <p>2005</p>
+          <p>First year of drilling. <br> Red marker indicates Salva Dut's village, Lou Ariik.</p>
         </div>
         <div class="step" id="step2">
-          <p>2008</p>
+          <p>WFSS bought its own equipment after two years of rental services. <br> The now-disputed, oil-rich Abyei region is embroiled in violence.</p>
         </div>
         <div class="step" id="step3">
-          <p>2011</p>
+          <p>South Sudan officially gains independece. <br> Until then, official South Sudanese work was done through Kenya.</p>
         </div>
         <div class="step" id="step4">
-          <p>2013</p>
+          <p>The simmering violence culminates into Civil War in December 2013. <br> Death toll starts building.</p>
         </div>
         <div class="step" id="step5">
-          <p>2014</p>
+          <p>33 new wells were drilled in the second year of war. <br> Most of wells were in Tonj county of Warrap.</p>
         </div>
         <div class="step" id="step6">
-          <p>2015</p>
+          <p>President Salva Kiir's government changes number of states from 10 to 32. <br> A peace deal is signed between warring factions.</p>
         </div>
         <div class="step" id="step7">
-          <p>2016</p>
+          <p> The 2015 peace deal signed to form unity government collapses. <br> Already simmering violence spreads further. <br> Number of wells drilled annually reduce by nearly half.</p>
         </div>
         <div class="step" id="step8">
-          <p>2018</p>
+          <p>Revitalised Agreement on the Resolution of the Conflict <br> in the Republic of South Sudan is signed. <br> Uptick in number of annual wells drilled. </p>
         </div>
         <div class="step" id="step9">
-          <p>2019</p>
+          <p>Humanitarian work and water accessibility projects resume in the country. <br> WFSS drilled its highest number of wells, 54, this year.</p>
         </div>
         <div class="step" id="step10">
-          <p>2020</p>
+          <p> Covid global pandemic begins. <br> The number of annual wells remains nearly 50 throughout pandemic years.</p>
         </div>
         <div class="step" id="step11">
-          <p>2021</p>
+          <p> As of March 2023, the non-profit has drilled 614 wells in South Sudan. The scarcity of water is felt most in rural parts of South Sudan. While WFSS has not been able.</p>
         </div>
+		<div class="step" id="step12">
+			<p> The scarcity of water is felt most in rural parts across the country. Due to lack of infrastructure, money, and political turmoil, organizations like WFSS has not been able to make in-roads in the drought-striken parts of Equatorial region. </p>
+		  </div>
 
       </div>
     </section>
 
 <div class="body-text">
+
 <h3>WATER CRISIS AFFECTS RURAL POPULATION DISPROPORTIONATELY</h3>
 
 <p>Although Dut’s organization has been working in the region for nearly two decades, South Sudan’s water crisis continues, particularly in rural areas, where a majority of South Sudan’s population — including Dut’s parents — live.  </p>
@@ -194,6 +198,7 @@
 
 <h3>Walk for Drinking Water Keeps Getting Longer for Rural South Sudanese</h3>
 <p>Majority of South Sudanese population lives in <span style="color: #3182bd"> rural </span>parts of the country.</p>
+
 </div>
 
 
@@ -1084,16 +1089,16 @@
 			<p class="g-pstyle2">2016</p>
 		</div>
 		<div id="g-ai1-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.7894%;margin-top:-8.4px;left:50.0512%;width:46px;">
-			<p class="g-pstyle2">2017</p>
-		</div>
-		<div id="g-ai1-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.7894%;margin-top:-8.4px;left:57.4928%;width:46px;">
 			<p class="g-pstyle2">2018</p>
 		</div>
-		<div id="g-ai1-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.7894%;margin-top:-8.4px;left:64.9344%;width:46px;">
+		<div id="g-ai1-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.7894%;margin-top:-8.4px;left:57.4928%;width:46px;">
 			<p class="g-pstyle2">2019</p>
 		</div>
-		<div id="g-ai1-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.7894%;margin-top:-8.4px;left:72.3763%;width:46px;">
+		<div id="g-ai1-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.7894%;margin-top:-8.4px;left:64.9344%;width:46px;">
 			<p class="g-pstyle2">2020</p>
+		</div>
+		<div id="g-ai1-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.7894%;margin-top:-8.4px;left:72.3763%;width:46px;">
+			<p class="g-pstyle2">2022</p>
 		</div>
 	</div>
 
@@ -1305,6 +1310,22 @@
 
       })
 
+	  d3.select("#step12").on('stepin', function() {
+        /* Show the first chart, hide the second chart */
+        d3.select("iframe[src='markers_2005.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2008.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2011.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2013.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2014.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2015.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2016.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2018.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2019.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2020.html']").classed("hidden", true);
+        d3.select("iframe[src='markers_2022.html']").classed("hidden", false);
+	
+      })
+
 
     </script>
 
@@ -1314,7 +1335,7 @@
       scroller
         .setup({
           step: "#scrolly .steps-container .step",
-          offset: 0.75,
+          offset: 0.50,
           debug: false,
         })
         .onStepEnter(function ({ element, index, direction }) {

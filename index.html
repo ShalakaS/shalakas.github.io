@@ -7,21 +7,27 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 <script src="https://kit.fontawesome.com/fed17b7b28.js" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
 </head>
 
 <style>
 
 body {
-  background-color: #F8F6F0;
+  background-color: #f4edf4;
 }
 
 a {
   text-decoration: none;
 }
 
+.icon-spacing {
+        margin-right: 20px; /* Adjust the margin to control the spacing between icons. */
+    }
+
 .custom-tooltip {
-  background-color: #F8F6F0;
+  background-color: #f4edf4;
   -webkit-text-fill-color: black;
   border-color: #000000;
   font-size: 15px;
@@ -37,6 +43,23 @@ span {
   -webkit-text-fill-color: black;
 }
 
+.icon-link {
+        color: #000;
+        font-family: 'Amiri Quran', serif;
+        font-size: 23px;
+      }
+
+p {
+  font-family: 'Amiri Quran', serif;
+  text-align: center;
+}
+
+
+
+.icon-link:hover {
+        color: rgb(197,27,138);
+      }
+
 hr {
   border: 1px solid #020001;
   width: 100%;
@@ -49,7 +72,7 @@ hr {
 .headline-holder {
   max-width: 1150px;
   font-size: 30px;
-  text-align: left;
+ align-items: left;
 }
 
 img {
@@ -62,7 +85,20 @@ img {
   width: fit-content;
 }
 
+.card-img-top {
+  height: 300px;
+  width: 100%;
+}
 
+.written-word-img {
+  width: 100%;
+  height: 300px;
+}
+
+.badge {
+  font-size: 15px;
+  align-content: center;
+}
 </style>
 
 <body>
@@ -72,17 +108,19 @@ img {
 <div class="intro">
 <div class="container text-center">
     <img class="rounded-circle img-thumbnail img-fluid"  src="Shalaka_square.jpg" alt="round-photo" style="width: 220px; height: 220px;">
-    <h1 style="color: #020001; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 40px;"> <strong>Shalaka Shinde</strong> </h1>      
-    <p><img src="data_analysis.png" style="width: 25px; height: 25px;" alt="Image">Data Journalist | Lover of <img src="ele_background.png" style="width: 20px; height: 20px;" alt="Image"></p>
+   
+   <h1 style="color: #020001; font-family: 'Amiri Quran', serif; font-size: 40px;"> <strong> Shalaka Shinde</strong></h1>    
+   <p><img src="data_analysis.png" style="width: 25px; height: 25px;" alt="Image">Data Journalist | Lover of <img src="ele_background.png" style="width: 20px; height: 20px;" alt="Image"></p>
     <div class="container">
         <div class="text-center center-block">
-              <a target="_blank" href="https://twitter.com/shalaka_shinde"><i class="fa-brands fa-twitter"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/in/shalaka-shinde-80285457/"><i class="fa-brands fa-linkedin link-success"></i></a>
-              <a target="_blank" href="https://www.instagram.com/learningsatelliteimagery/"><i class="fa-brands fa-instagram link-warning"></i></a>
-              <a target="_blank" href="https://www.github.com/ShalakaS/"><i class="fa-brands fa-github link-danger"></i></a>  
-             <a href="javascript:location='mailto:\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075';void 0"> <i class="fa-solid fa-envelope link-info"></i> </a>
-             <br>
-            <a target="_blank" href="https://github.com/ShalakaS/shalakas.github.io/blob/main/Shinde%2C%20Shalaka.pdf" class="link-colour"> Resume <img src="Resume.png" style="width: 20px; height: 20px;" alt="Image"> </a>
+          <a href="https://www.instagram.com/learningsatelliteimagery/"><i class="fa-brands fa-instagram link-warning fa-2x icon-spacing"></i></a>    
+          <a href="https://www.linkedin.com/in/shalaka-shinde-80285457/"><i class="fa-brands fa-linkedin link-success fa-2x icon-spacing"></i></a>
+              
+          <a href="https://www.github.com/ShalakaS/"><i class="fa-brands fa-github link-danger fa-2x icon-spacing"></i></a>  
+          <a href="javascript:location='mailto:\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075';void 0"> <i class="fa-solid fa-envelope link-info fa-2x icon-spacing"></i> </a>
+          <a href="https://twitter.com/shalaka_shinde"><i class="fa-brands fa-twitter fa-2x icon-spacing"></i></a>
+          <br>
+          <a href="https://github.com/ShalakaS/shalakas.github.io/blob/main/Shinde%2C%20Shalaka.pdf" class="link-colour icon-spacing"> Resume <img src="Resume.png" style="width: 20px; height: 20px;" alt="Image"> </a>
         </div>
     </div>
   </div>
@@ -91,142 +129,117 @@ img {
 <br>
 
 <div class="container-fluid headline-holder">
-  <p> <i class="fa-solid fa-database"></i> Data Reporting </p>
+  <p> Data Reporting </p>
 </div>
-
 
 <br>
 
-<div class="container-fluid bg-4 text-center headline story-holder"> 
-<div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="container-fluid text-center story-holder"> 
+<div class="row row-cols-1 row-cols-md-3 g-md-4 g-4">
 
   <div class="col">
-    <label class="btn-secondary btn-group-sm custom-tooltip">
-    Playwright | 
-    </label>
-    <label class="btn-group-sm custom-tooltip">
-    BeautifulSoup | 
-    </label>
-    <label class="btn-secondary btn-group-sm custom-tooltip">
-    APIs
-    </label>
-    <div class="card h-100">
-      <a target="_blank" href='https://shalakas.github.io/masters_project/' class="link-colour"><img src="head.gif" class="card-img-top" alt="header image gif"></a>
-      <div class="card-body">
-        <a target="_blank" href='https://shalakas.github.io/masters_project/' class="link-colour">
-          <p class="card-title"><strong>Justice So Delayed, It Is As Good As Denied</strong></a><br><small class="text-muted">August 10, 2023</small></p><br>
-        <p class="card-text">This story is a precursor to the database I have built to answer important questions about murder cases at various stages of trial and pre-trial in district courts of India. Some cases date back to 1966. This database will help answer questions with a solution-based approach.
-          <br>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <label class="btn-secondary btn-group-sm custom-tooltip">
-    scrollytelling | 
-    </label>
-    <label class="btn-group-sm custom-tooltip">
-    folium | 
-    </label>
-    <label class="btn-secondary btn-group-sm custom-tooltip">
-    ggplot
-    </label>
-    <div class="card h-100">
-      <a target="_blank" href='https://shalakas.github.io/water-crisis-salva-dut/' class="link-colour"><img src="SS_homestead_Wikimedia_Commons.jpeg" class="card-img-top" alt="header image screenshot"></a>
-      <div class="card-body">
-        <a target="_blank" href='https://shalakas.github.io/water-crisis-salva-dut/' class="link-colour">
-          <p class="card-title"><strong>Easing Water Labor in South Sudan, One Well at a Time</strong></a><br><small class="text-muted">April 30, 2023</small></p><br>
-        <p class="card-text">This story is aimed at shedding light on the nuances of the water crisis in South Sudan through the lens of a local NGO, Water for South Sudan. The story is told through a scrollytelling format, with the help of maps and data visualizations.
-          <br>
-        </p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="col">
-    <label class="btn-secondary btn-group-sm custom-tooltip">
+  
+    <label class="custom-tooltip">
     playwright | 
     </label>
+    <label class="custom-tooltip">
+    beautifulsoup | 
+    </label>
+    <label class="custom-tooltip">
+    API |
+    </label>
+    <label class="custom-tooltip">
+      illustrator
+      </label>
+    
+      <div class="card d-flex flex-col">
+        
+            <img src="head.gif" class="card-img-top  img-fluid" alt="header image gif">
+     
+        <div class="card-body">
+            <a class="icon-link icon-link-hover card-title" href="https://shalakas.github.io/masters_project/" aria-hidden="true"><strong>Justice So Delayed, It Is As Good As Denied</strong></a>
+            <p class="card-text">This story is a precursor to a custom database that answers questions about trial and pre-trial murder cases in Indian district courts.</p>
+        </div>
+    </div>
+    
+  </div>
+
+  <div class="col">
+    <label class="custom-tooltip">
+    scrollytelling | 
+    </label>
+    <label class="custom-tooltip">
+    folium | 
+    </label>
+    <label class="custom-tooltip">
+    ggplot
+    </label>
+    <div class="card d-flex flex-col">
+          <img src="SS_homestead_Wikimedia_Commons.jpeg" class="card-img-top  img-fluid" alt="header image">
+      <div class="card-body">
+          <a class="icon-link icon-link-hover card-title" href="https://shalakas.github.io/water-crisis-salva-dut//" aria-hidden="true"> <strong>Easing Water Labor in South Sudan, One Well at a Time </strong></a><br>
+          <p class="card-text">A look at drinking water crisis in rural South Sudan through a profile of an immigrant, Salva Dut, who walked between countries during the Sudan war.</p>
+      </div>
+  </div> 
+  </div>
+
+  <div class="col">
+    <label class="btn-secondary btn-group-sm custom-tooltip">
+      RAWgraphs | 
+    </label>
     <label class="btn-group-sm custom-tooltip">
-    pandas | 
+      ggplot | 
     </label>
     <label class="btn-secondary btn-group-sm custom-tooltip">
-    mapbox
+     Illustrator
     </label>
-    <div class="card h-100">
-      <a target="_blank" href='https://shalakas.github.io/CJS_Project/' class="link-colour"><img src="map_photo.jpeg" class="card-img-top" alt="header image screenshot"></a>
-      <div class="card-body">
-        <a target="_blank" href='https://shalakas.github.io/CJS_Project/' class="link-colour">
-          <p class="card-title"><strong>Rotting Cases in Indian Courts</strong></a><br><small class="text-muted">Dec 15, 2022</small></p><br>
-        <p class="card-text">This map of five districts from Indian state of Maharashtra shows murder cases that were pending at the end of 2022 - some of them for over 20 years. The data was collected using Playwright, a web-scraping tool similar to selinium while the map is built using Mapbox.
-          <br>
-        </p>
-      </div>
-    </div>
+
+    <div class="card flex-col">
+      <img src="header_blue.png" class="card-img-top img-fluid" alt="header image">
+  <div class="card-body">
+      <a class="icon-link icon-link-hover card-title" href="https://shalakas.github.io/blueberry-production-peru/" aria-hidden="true"><strong>Peru is Propelling World Blueberry Production Growth</strong></a><br>
+      <p class="card-text">Blueberry production of the world grew by 131% in a decade. Data shows that one country single-handedly set this trend in motion.</p>
+  </div>
+</div>
   </div>
 
 
   <div class="col">
-    <label class="btn-secondary btn-group-sm custom-tooltip">
+    <label class="custom-tooltip">
       playwright | 
     </label>
-    <label class="btn-group-sm custom-tooltip">
+    <label class="custom-tooltip">
       datawrapper | 
     </label>
-    <label class="btn-secondary btn-group-sm custom-tooltip">
+    <label class="custom-tooltip">
      pandas
     </label>
-    <div class="card h-100">
-      <a target="_blank" href='https://shalakas.github.io/autoupdating/'><img src="AQI_image.png" class="card-img-top" alt="header image"></a>
-      <div class="card-body">
-        <p class="card-title"><a target="_blank" href='https://shalakas.github.io/autoupdating/' class="link-colour"><strong>Hourly AQI of major Indian cities</strong></a><br><small class="text-muted">Jan 14, 2023</small></p><br>
-        <a target="_blank" href='https://shalakas.github.io/autoupdating/' class="link-colour"><p class="card-text">The page shows a table of hourly Air Quality Index (AQI) of 7 major Indian cities. The page scrapes data from a government of India website and self-updates.</p></a>
-      </div>
-    </div>
+    <div class="card flex-col">
+      <img src="AQI_image.png" class="card-img-top img-fluid" alt="header image">
+  <div class="card-body">
+      <a class="icon-link icon-link-hover card-title" href="https://shalakas.github.io/autoupdating/" aria-hidden="true"><strong>Hourly AQI of major Indian cities</strong></a><br>
+      <p class="card-text">An auto-updating table of hourly Air Quality Index (AQI) of seven major cities in India to observe dramatic fluctuations.</p>
+  </div>
+</div>
   </div>
 
-
-  <div class="col">
-    <label class="btn-secondary btn-group-sm custom-tooltip">
-      camelot | 
-    </label>
-    <label class="btn-group-sm custom-tooltip">
-    pandas | 
-    </label>
-    <label class="btn-secondary btn-group-sm custom-tooltip">
-    waffle charts |
-    </label>
-    <label class="btn-secondary btn-group-sm custom-tooltip">
-      datawrapper
-      </label>
-      <div class="card h-100">
-        <a target="_blank" href='https://shalakas.github.io/rice-project/' class="link-colour"><img src="paddy.jpg" class="card-img-top" alt="header of rice project"></a>
-        <div class="card-body">
-          <p class="card-title"><a target="_blank" href='https://shalakas.github.io/rice-project/' class="link-colour"><strong>World's Largest Rice Exporter Country Produces Less Than China</strong></a><br><small class="text-muted">Feb 5, 2023</small></p><br>
-          <p class="card-text"> <a target="_blank" href='https://shalakas.github.io/rice-project/' class="link-colour">The story is an attempt to understand why the largest producer of one of the most consumed food grains in the world - rice - is not the largest exporter of it.</a></p>
-        </div>
-      </div>
-    </div>
-
     <div class="col">
-      <label class="btn-secondary btn-group-sm custom-tooltip">
+      <label class="custom-tooltip">
         ggplot | 
       </label>
-      <label class="btn-group-sm custom-tooltip">
+      <label class="custom-tooltip">
         datawrapper | 
       </label>
-      <label class="btn-secondary btn-group-sm custom-tooltip">
+      <label class="custom-tooltip">
        pandas
       </label>
-      <div class="card h-100">
-        <a target="_blank" href='https://shalakas.github.io/judiciary-project/'><img src="hero.png" class="card-img-top" alt="hero of judiciary"></a>
-        <div class="card-body">
-          <p class="card-title"><a target="_blank" href='https://shalakas.github.io/judiciary-project/' class="link-colour"><strong>Acute Gender Disparity Among Higher Judiciary in India</strong></a><br><small class="text-muted">Feb 19, 2023</small></p><br>
-          <a target="_blank" href='https://shalakas.github.io/judiciary-project/' class="link-colour"><p class="card-text">This page tries to analyse the number of women appointed as judges in the high courts and supreme court of India since 1994 when the current selection process came into existance.</p></a>
-        </div>
-      </div>
+      <div class="card flex-col">
+        <img src="hero.png" class="card-img-top img-fluid" alt="header image">
+    <div class="card-body">
+        <a class="icon-link icon-link-hover card-title" href="https://shalakas.github.io/judiciary-project/" aria-hidden="true"><strong>Acute Gender Disparity Among Higher Judiciary in India</strong></a><br>
+        <p class="card-text">Data analysis to show the number of women appointed as judges in the high courts and supreme court of India after the current selection process was adopted.</p>
+    </div>
+  </div>
     </div>
 
 
@@ -234,44 +247,66 @@ img {
       <label class="btn-secondary btn-group-sm custom-tooltip">
         QGIS | 
       </label>
-      <label class="btn-group-sm custom-tooltip">
+      <label class="custom-tooltip">
       playwright | 
       </label>
-      <label class="btn-secondary btn-group-sm custom-tooltip">
+      <label class="custom-tooltip">
       ggplot |
       </label>
-      <label class="btn-secondary btn-group-sm custom-tooltip">
+      <label class="custom-tooltip">
         Illustrator
         </label>
-        <div class="card h-100">
-          <a target="_blank" href='https://shalakas.github.io/south-sudan-project/' class="link-colour"><img src="hero 2.png" class="card-img-top" alt="hero of south sudan project"></a>
-          <div class="card-body">
-            <p class="card-title"><a target="_blank" href='https://shalakas.github.io/south-sudan-project/' class="link-colour"><strong>Infighting in South Sudan Sees Alarming Uptick</strong></a><br><small class="text-muted">Feb 26, 2023</small></p><br>
-            <p class="card-text"> <a target="_blank" href='https://shalakas.github.io/south-sudan-project/' class="link-colour">This story is an attempt to showcase that the uptick in casaulties of violence in the volatile young country of South Sudan is reportedly caused by infighting among smaller factions - military as well as tribal.</a></p>
-          </div>
-        </div>
+        <div class="card flex-col">
+          <img src="hero 2.png" class="card-img-top img-fluid" alt="header image">
+      <div class="card-body">
+          <a class="icon-link icon-link-hover card-title" href="https://shalakas.github.io/south-sudan-project/" aria-hidden="true"><strong>Infighting in South Sudan Sees Alarming Uptick</strong></a><br>
+          <p class="card-text">This story is an attempt to showcase that the uptick in casaulties in South Sudan is caused by infighting among smaller factions.</p>
       </div>
-
+    </div>
+      </div>
 
 
       <div class="col">
         <label class="btn-secondary btn-group-sm custom-tooltip">
-          RAWgraphs | 
+        playwright | 
         </label>
         <label class="btn-group-sm custom-tooltip">
-          ggplot | 
+        pandas | 
         </label>
         <label class="btn-secondary btn-group-sm custom-tooltip">
-         Illustrator
+        mapbox
         </label>
-        <div class="card h-100">
-          <a target="_blank" href='https://shalakas.github.io/blueberry-production-peru/'><img src="header2.png" class="card-img-top" alt="header image"></a>
+        <div class="card d-flex flex-col">
+              <img src="map_photo.jpeg" class="card-img-top img-fluid" alt="header image">
           <div class="card-body">
-            <p class="card-title"><a href='https://shalakas.github.io/blueberry-production-peru/' class="link-colour"><strong>Peru is Propelling World Blueberry Production Growth</strong></a><br><small class="text-muted">April 9, 2023</small></p><br>
-            <a href='https://shalakas.github.io/blueberry-production-peru/' class="link-colour"><p class="card-text">Blueberry production of the world grew by 131% in 2021 compared to 2012. While US maintained high production of the fruit, Peru became the second highest producer, beating Canada for the first time in a dacade in 2022.</p></a>
+              <a class="icon-link icon-link-hover card-title" href="https://shalakas.github.io/CJS_Project/" aria-hidden="true"><strong>Rotting Cases in Indian Courts</strong></a><br>
+              <p class="card-text">This map of five districts from Indian state of Maharashtra shows murder cases that were pending at the end of 2022.</p>
           </div>
+      </div>
+      </div>
+
+      <div class="col">
+        <label class="custom-tooltip">
+          camelot | 
+        </label>
+        <label class="custom-tooltip">
+        pandas | 
+        </label>
+        <label class=" custom-tooltip">
+        waffle charts |
+        </label>
+        <label class="custom-tooltip">
+          datawrapper
+          </label>
+    
+          <div class="card flex-col">
+            <img src="bag_of_rice.jpg" class="card-img-top img-fluid" alt="header image">
+        <div class="card-body">
+            <a class="icon-link icon-link-hover card-title" href="https://shalakas.github.io/rice-project/" aria-hidden="true"><strong>World's Largest Rice Exporter Country Produces Less Than China</strong></a><br>
+            <p class="card-text">The largest producer of one of the most consumed food grains in the world - rice - is not the largest exporter of it, data reveals.</p>
         </div>
       </div>
+        </div>
 
 
 </div>
@@ -281,7 +316,7 @@ img {
 <br>
 
 <div class="container-fluid headline-holder">
-  <p> <i class="fa-solid fa-pen-fancy"></i> Written Word </p>
+  <p> Written Word </p>
 </div>
 
 
@@ -289,36 +324,39 @@ img {
 
 <div class="container-fluid bg-4 text-center headline story-holder">    
   <div class="row row-cols-1 row-cols-md-3 g-4">   
-    <div class="col"> 
-      <div class="card h-100">    
-        <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/pune-man-gets-death-penalty-for-sexual-assault-murder-of-2yrold-101646070225780.html'><img src="story_image.jpeg" class="card-img-top" alt="article image"></a>
-        <div class="card-body">
-          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
-          <p> <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/pune-man-gets-death-penalty-for-sexual-assault-murder-of-2yrold-101646070225780.html' class='link-colour'><strong>Pune Man Gets Death Penalty for Sexual Assault, Murder of 2-yr-old</strong></a><br><small class="text-muted">Feb 28, 2022</small></p>
-          <br>
-          <p class="card-text">The principal district court in Pune sentenced a 39-year-old man to death for sexual assault and brutal murder of a two-year-five-month-old girl in February 2021. The trial was one of the fastest ones in its category, in the state, to have reached a conclusion within a year.</p>
+
+  <div class="col">
+    <div class="card">
+      <img src="story_image.jpeg" class="card-img-left written-word-img" alt="article image">
+      <div class="card-body">
+        <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+        <h5 class="card-title"><a class="icon-link icon-link-hover card-title" href='https://www.hindustantimes.com/cities/pune-news/pune-man-gets-death-penalty-for-sexual-assault-murder-of-2yrold-101646070225780.html' aria-hidden="true"><strong>Pune Man Gets Death Penalty for Sexual Assault, Murder of 2-yr-old</strong></a></h5>
+        <p class="card-text">Feb 28, 2022</p>
+        <p class="card-text">The principal district court in Pune sentenced a 39-year-old man to death for sexual assault and brutal murder of a two-year-five-month-old girl in February 2021. The trial was one of the fastest ones in its category, in the state, to have reached a conclusion within a year.</p>
       </div>
     </div>
   </div>
+  
 
   <div class="col"> 
-    <div class="card h-100">    
-      <a target="_blank" href='https://www.thequint.com/news/business/telecom-minister-ravi-shankar-prasad-refuses-penal-powers-telecom-regulator-trai-fight-call-drops-airtel-vodafone#read-more'><img src="https://images.thequint.com/thequint%2F2016-06%2F3ea63e2d-b85f-4db7-9f8c-fc5d8329571b%2FTRAI_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="article image"></a>
+    <div class="card">    
+      <img src="https://images.thequint.com/thequint%2F2016-06%2F3ea63e2d-b85f-4db7-9f8c-fc5d8329571b%2FTRAI_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=720" class="written-word-img" alt="article image">
       <div class="card-body">
         <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
-        <p> <a target="_blank" href='https://www.thequint.com/news/business/telecom-minister-ravi-shankar-prasad-refuses-penal-powers-telecom-regulator-trai-fight-call-drops-airtel-vodafone#read-more' class='link-colour'><strong>
-          TRAI Wants Penal Powers; Telecom Minister Says Enough Already!</strong></a><br><small class="text-muted">Jun 16, 2016</small></p><br>
+        <h5 class="card-title"><a class="icon-link icon-link-hover card-title" href='https://www.thequint.com/news/business/telecom-minister-ravi-shankar-prasad-refuses-penal-powers-telecom-regulator-trai-fight-call-drops-airtel-vodafone#read-more' aria-hidden="true"><strong>TRAI Wants Penal Powers; Telecom Minister Says Enough Already!</strong></a></h5>
+        <p class="card-text">Jun 16, 2016</p>
         <p class="card-text">Does India’s telecom regulator really need penal powers? I wrote a story about the long-standing debate about the regulatory body's demands. The Telecom Regulatory Authority of India (TRAI) seeks powers to penalise service providers – who fail to follow its regulations.</p>              
     </div>
   </div>
 </div>
   
       <div class="col"> 
-        <div class="card h-100">    
-          <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/tale-of-three-crime-families-of-pune-taak-dudhani-kalyani-31-members-and-1-100-cases-101612523725585.html'><img src="crime_families.jpg" class="card-img-top" alt="article image"></a>
+        <div class="card">    
+          <img src="crime_families.jpg" class="written-word-img" alt="article image">
           <div class="card-body">
             <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
-            <p> <a target="_blank" href='https://www.hindustantimes.com/cities/pune-news/tale-of-three-crime-families-of-pune-taak-dudhani-kalyani-31-members-and-1-100-cases-101612523725585.html' class='link-colour'><strong>Tale of 3 Crime Families of Pune: 31 Members & 1100 Cases</strong></a><br><small class="text-muted">Feb 5, 2021</small></p><br>
+            <h5 class="card-title"> <a class="icon-link icon-link-hover card-title" href='https://www.hindustantimes.com/cities/pune-news/tale-of-three-crime-families-of-pune-taak-dudhani-kalyani-31-members-and-1-100-cases-101612523725585.html' aria-hidden="true"><strong>Tale of 3 Crime Families of Pune: 31 Members & 1100 Cases</strong></a></h5>
+              <p class="card-text">Feb 5, 2021</p>
             <p class="card-text">At least 30 members of three families, collectively, have a record of over 1,000 cases against them until March 2020, as per the records maintained by the Pune city police. Due to a legal loophole, they have managed to stay out of jail.</p>
         </div>
       </div>
@@ -326,11 +364,12 @@ img {
 
 
     <div class="col"> 
-      <div class="card h-100">    
-        <a target="_blank" href='https://www.hindustantimes.com/india-news/dog-racing-emerges-as-new-maharashtra-craze-activists-cry-foul/story-4K6CY7nwEl1dPGskthps1M.html'><img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/02/Pictures/h-t-dog-race-story_f158480e-5c1c-11ea-bcc0-e4d0c7a68e9a.JPG" class="card-img-top" alt="article image"></a>
+      <div class="card">    
+        <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/02/Pictures/h-t-dog-race-story_f158480e-5c1c-11ea-bcc0-e4d0c7a68e9a.JPG" class="written-word-img" alt="article image">
         <div class="card-body">
           <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
-          <p> <a target="_blank" href='https://www.hindustantimes.com/india-news/dog-racing-emerges-as-new-maharashtra-craze-activists-cry-foul/story-4K6CY7nwEl1dPGskthps1M.html' class='link-colour'><strong>Dog Racing Emerges as New Maharashtra Craze, Activists Cry Foul</strong></a><br><small class="text-muted">Mar 2, 2020</small></p><br>
+          <h5 class="card-title"> <a  class="icon-link icon-link-hover card-title" aria-hidden="true" href='https://www.hindustantimes.com/india-news/dog-racing-emerges-as-new-maharashtra-craze-activists-cry-foul/story-4K6CY7nwEl1dPGskthps1M.html'><strong>Dog Racing Emerges as New Maharashtra Craze, Activists Cry Foul</strong></a></h5>
+          <p class="card-text">Mar 2, 2020</p>
           <p class="card-text">The story traces the unknown world of dog racing in Maharashtra which has led to breeds like greyhounds to reach the most rural parts of the state. The dog race is a village event that is held with word-of-mouth publicity only. </p>
       </div>
     </div>
@@ -338,11 +377,12 @@ img {
 
 
   <div class="col"> 
-    <div class="card h-100">    
-      <a target="_blank" href='https://www.thequint.com/news/infographics/tamil-nadu-drowns-in-jayalalithaas-omnipresence#read-more'><img src="https://images.thequint.com/thequint%2F2016-02%2F45d5a5c1-d8c0-4ebf-b655-fa3b5d4e166b%2FOmnipresent_Amma_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="article image"></a>
+    <div class="card">    
+      <img src="https://images.thequint.com/thequint%2F2016-02%2F45d5a5c1-d8c0-4ebf-b655-fa3b5d4e166b%2FOmnipresent_Amma_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=720" class="written-word-img" alt="article image">
       <div class="card-body">
         <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
-        <p> <a target="_blank" href='https://www.thequint.com/news/infographics/tamil-nadu-drowns-in-jayalalithaas-omnipresence#read-more' class='link-colour'><strong>Tamil Nadu Drowns in Jayalalithaa’s Omnipresence</strong></a><br><small class="text-muted">May 19, 2016</small></p><br>
+        <h5 class="card-title"> <a class="icon-link icon-link-hover card-title" aria-hidden="true" href='https://www.thequint.com/news/infographics/tamil-nadu-drowns-in-jayalalithaas-omnipresence#read-more' ><strong>Tamil Nadu Drowns in Jayalalithaa’s Omnipresence</strong></a></h5>
+        <p class="card-text">May 19, 2016</p>
         <p class="card-text">The story explores all the brands - food, medicine, alcohol - that are named after the now-deceased Chief Minister of Tamil Nadu, Jayalalithaa, who remained absent from public eye during 2015 floods in the state.</p>              
     </div>
   </div>
@@ -350,11 +390,12 @@ img {
 
 <div class="col"> 
   <div class="card h-100">    
-    <a target="_blank" href='https://www.thequint.com/news/india/ceasefire-agreement-violation-jammu-kashmir-atal-bihari-vajpayee-manmohan-singh-narendra-modi-surgical-strike'><img src="https://images.thequint.com/thequint%2F2016-11%2F9bccc2f7-a0b1-463d-800f-4ae74e6df8ec%2F459a82c1-3cfc-43fb-ad03-d8fae4e1656e.jpg?rect=0%2C0%2C1024%2C576&auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="article image"></a>
+   <img src="https://images.thequint.com/thequint%2F2016-11%2F9bccc2f7-a0b1-463d-800f-4ae74e6df8ec%2F459a82c1-3cfc-43fb-ad03-d8fae4e1656e.jpg?rect=0%2C0%2C1024%2C576&auto=format%2Ccompress&fmt=webp&width=720" class="written-word-img" alt="article image">
     <div class="card-body">
       <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
-      <p> <a target="_blank" href='https://www.thequint.com/news/india/ceasefire-agreement-violation-jammu-kashmir-atal-bihari-vajpayee-manmohan-singh-narendra-modi-surgical-strike' class='link-colour'><strong>After 13 Years of Turmoil, Is the Ceasefire Agreement Redundant?</strong></a><br><small class="text-muted">Nov 26, 2016</small></p><br>
-      <p class="card-text">The story explores all the brands - food, medicine, alcohol - that are named after the now-deceased Chief Minister of Tamil Nadu, Jayalalithaa, who remained absent from public eye during 2015 floods in the state.</p>              
+      <h5> <a class="icon-link icon-link-hover card-title" aria-hidden="true" href='https://www.thequint.com/news/india/ceasefire-agreement-violation-jammu-kashmir-atal-bihari-vajpayee-manmohan-singh-narendra-modi-surgical-strike'><strong>After 13 Years of Turmoil, Is the Ceasefire Agreement Redundant?</strong></a></h5>
+      <p class="card-text">Nov 26, 2016</p>
+      <p class="card-text">The story explores all the brands - food, medicine, alcohol - that are named after the now-deceased Chief Minister of Tamil Nadu, Jayalalithaa, who remained absent from public eye during 2015 floods in the state.<p>              
   </div>
 </div>
 </div>
@@ -366,7 +407,7 @@ img {
 <br>
 
 <div class="container-fluid headline-holder">
-  <p> <i class="fa-solid fa-video"></i> Video & Interactive Stories </p>
+  <p> Video Production & Interactive Stories </p>
 </div>
 
 

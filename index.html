@@ -18,6 +18,14 @@ body {
   background-color: #c9e4d89b;
 }
 
+.list-group-item {
+  background-color: #c9e4d800;
+}
+
+.list-group-item:hover {
+  background-color: #c9e4d800;
+}
+
 a {
   text-decoration: none;
 }
@@ -49,7 +57,17 @@ span {
         font-size: 27px;
       }
 
+p.card-title {
+  color: #000;
+        font-family: 'Amiri Quran', serif;
+        font-size: 24px;
+}
+p.card-text {
+  font-size: 20px;
+}
+
 p {
+
   font-family: 'Amiri Quran', serif;
   text-align: center;
 }
@@ -59,7 +77,7 @@ p {
       }
 
 hr {
-  border: 1px solid #020001;
+  border: 0.75px solid #020001;
   width: 100%;
 }
 
@@ -71,17 +89,11 @@ hr {
   max-width: 1150px;
   font-size: 30px;
  align-items: left;
- text-shadow: #c51b8af9;
 }
 
 img {
   height: 260px;
   width:fit-content;
-}
-
-.img-size {
-  height: 280px;
-  width: fit-content;
 }
 
 .card-img-top {
@@ -97,6 +109,11 @@ img {
 .vid-inter-img {
   width: 400px;
   height: 300px;
+}
+
+.over-time-img {
+  width:450px;
+  height: 100%;
 }
 
 .badge {
@@ -121,8 +138,26 @@ a i {
 }
 
 .mb-1 {
-  background-color:  #c2dbd02b;
+   font-family: 'Amiri Quran', serif;
+   color: #000000;
+   font-size: 20px;
 }
+
+.mb-1:hover {
+  color: rgb(213, 20, 145); 
+}
+
+.vid-card-hover {font-family: 'Amiri Quran', serif;
+   color: #000000;
+   font-size: 20px;
+   font-weight: bold;
+  }
+
+.vid-card-hover:hover {
+  color: rgb(213, 20, 145); 
+  font-weight: bold;
+  }
+
 
 </style>
 
@@ -135,7 +170,7 @@ a i {
     <img class="rounded-circle img-thumbnail img-fluid"  src="Shalaka_square.jpg" alt="round-photo" style="width: 220px; height: 220px;">
    
    <h1 style="color: #020001; font-family: 'Amiri Quran', serif; font-size: 40px;"> <strong> Shalaka Shinde</strong></h1>    
-   <p class="bio">Greetings! I'm a <a href="#">data journalist </a>striving to bridge the gap between data and <a href="#">storytelling</a>. I love elephants.</p> <p class="bio">My interest in satellite imagery/remote sensing data translated into an Instagram channel called <a class="icon-link icon-link-hover" aria-hidden="true" href="http://instagram.com/learningsatelliteimagery/">Experiments With Satellite Imagery</a>.</p> <p class="bio"> Spent a year scraping through the data journalism program at Columbia Journalism School. Currently surviving New York while on a lookout for opportunities where I can produce meaningful journalism using data.</p> <p class="bio">Bylines in Hindustan Times, The Quint. You can look at my <a class="icon-link icon-link-hover" aria-hidden="true" href="https://github.com/ShalakaS/shalakas.github.io/blob/main/Shinde%2C%20Shalaka.pdf">resume here</a>.</p>
+   <p class="bio">Greetings! I'm a <a href="#">data journalist </a>striving to bridge the gap between data and <a href="#">storytelling</a>. I love elephants.</p> <p class="bio">My interest in satellite imagery/remote sensing data translated into an Instagram channel called <a class="icon-link icon-link-hover" aria-hidden="true" href="http://instagram.com/learningsatelliteimagery/">Experiments With Satellite Imagery</a>.</p> <p class="bio"> Spent a year scraping through the data journalism program at Columbia Journalism School. Currently surviving New York while on a lookout for opportunities to produce meaningful journalism using data.</p> <p class="bio">Bylines in Hindustan Times, The Quint. You can look at my <a class="icon-link icon-link-hover" aria-hidden="true" href="https://github.com/ShalakaS/shalakas.github.io/blob/main/Shinde%2C%20Shalaka.pdf">resume here</a>.</p>
     <div class="container">
         <div class="text-center center-block">
           <a aria-hidden="true" href="https://www.instagram.com/learningsatelliteimagery/"><i class="fa-brands fa-instagram bio fa-3x icon-spacing icon-link icon-link-hover"></i></a>    
@@ -335,7 +370,7 @@ a i {
 <br>
 
 <div class="container-fluid headline-holder">
-  <p> Written Word </p>
+  <p> Written Word Stories </p>
 </div>
 
 
@@ -349,7 +384,7 @@ a i {
       <img src="story_image.jpeg" class="card-img-left written-word-img" alt="article image">
       <div class="card-body">
         <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
-        <h5 class="card-title"><a class="icon-link icon-link-hover card-title" href='https://www.hindustantimes.com/cities/pune-news/pune-man-gets-death-penalty-for-sexual-assault-murder-of-2yrold-101646070225780.html' aria-hidden="true"><strong>Pune Man Gets Death Penalty for Sexual Assault, Murder of 2-yr-old</strong></a></h5>
+        <h5 class="card-title"><a class="icon-link icon-link-hover card-title"aria-hidden="true" href='https://www.hindustantimes.com/cities/pune-news/pune-man-gets-death-penalty-for-sexual-assault-murder-of-2yrold-101646070225780.html' ><strong>Pune Man Gets Death Penalty for Sexual Assault, Murder of 2-yr-old</strong></a></h5>
         <p class="card-text">Feb 28, 2022</p>
         <p class="card-text">The principal district court in Pune sentenced a 39-year-old man to death for sexual assault and brutal murder of a two-year-five-month-old girl in February 2021. The trial was one of the fastest ones in its category, in the state, to have reached a conclusion within a year.</p>
       </div>
@@ -423,119 +458,98 @@ a i {
 </div>
 
 <br>
-<br>
 
 <div class="container-fluid headline-holder">
-  <p> Video Production & Interactive Stories </p>
+  <p> Video Interactive Stories I Have Produced </p>
 </div>
 
 
 <br>
 
-<div class="container-fluid bg-4 text-center headline story-holder"> 
-  
-
+<div class="container">
   <div class="row">
-    <div class="col">
-        <div class="card h-100">
-            <div class="row g-0">
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
-                        <p><a target="_blank" href='https://fb.watch/ibSlJFzP0D/' class="link-colour"><h5 class="card-title"><strong>LGBTQ+ Pride Parade of Pune</strong></h5></a><small class="text-muted">Jun 12, 2017</small></p><br>
-                        <p class="card-text">This is a video-story of Pune city's pride parade held in 2017. I shot this video on my mobile phone, edited it on iMovies, and published it on the Facebook page of Hindustan Times.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <img src="LGBT_parade.png" class="vid-inter-img" alt="story image">
-                </div>
-            </div>
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="LGBT_parade.png" class="card-img-top" alt="pride parade head">
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+          <p class="card-text"><a class="vid-card-hover" aria-hidden="true" href='https://fb.watch/ibSlJFzP0D/'>LGBTQ+ Pride Grows More Colorful With Every Parade in Pune</a></p>
         </div>
+      </div>
     </div>
-</div>
 
-<div class="row"> 
-    <div class="col">
-        <div class="card h-100">
-            <div class="row g-0">
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
-                        <p><a target="_blank" href='https://www.thequint.com/fit/health-news/will-banning-rented-wombs-really-end-the-risks-of-surrogacy-regulation-bill-2#read-more' class="link-colour"><h5 class="card-title"><strong>Will Banning Rented Wombs Really End the Risks of Surrogacy?</strong></h5></a><small class="text-muted">Sep 12, 2016</small></p>
-                        <p class="card-text">In 2016, the Indian government changed the surrogacy guidelines to ban commercial surrogacy in the country.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <img src="https://images.thequint.com/thequint%2F2016-09%2F0ef85e68-ac5b-48d0-b065-7abbc9100eb0%2FTwitter_video.gif?auto=format%2Ccompress&fmt=webp&width=720" class="vid-inter-img" alt="story image">
-                </div>
-            </div>
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://images.thequint.com/thequint%2F2016-09%2F0ef85e68-ac5b-48d0-b065-7abbc9100eb0%2FTwitter_video.gif?auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="image from link">
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+          <p class="card-text"><a class="vid-card-hover" aria-hidden="true" href='https://www.thequint.com/fit/health-news/will-banning-rented-wombs-really-end-the-risks-of-surrogacy-regulation-bill-2#read-more'>Will Banning Rented Wombs Really End the Risks of Surrogacy?</a></p>
         </div>
+      </div>
     </div>
-</div>
 
-<div class="row">
-    <div class="col">
-        <div class="card h-100">
-            <div class="row g-0">
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
-                        <p><a href='https://www.thequint.com/fit/health-news/decade-long-war-against-female-foeticide-dismissed-within-minutes-2#read-more' class="link-colour"><h5 class="card-title"><strong>Decade-Long War Against Female Foeticide Cut Short Within Minutes</strong></h5></a><small class="text-muted">Sep 23, 2016</small></p><br>
-                        <p class="card-text">Story of Doctor Mitu Khurana who was the first woman in India to wage a legal war against female foeticide under the Pre-Conception and Pre-Natal Diagnostic Techniques Act, 1994.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <img src="https://images.thequint.com/thequint%2F2016-09%2F657b5f38-019c-4e6a-9852-defc6f17526d%2FMitu_Khurana_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=300" class="vid-inter-img" alt="story image">
-                </div>
-            </div>
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://images.thequint.com/thequint%2F2016-09%2F657b5f38-019c-4e6a-9852-defc6f17526d%2FMitu_Khurana_HERO.jpg?rect=0%2C0%2C1820%2C1024&auto=format%2Ccompress&fmt=webp&width=300" class="card-img-top" alt="img link">
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+          <p class="card-text"><a class="vid-card-hover" aria-hidden="true" href='https://www.thequint.com/fit/health-news/decade-long-war-against-female-foeticide-dismissed-within-minutes-2#read-more'> Decade-Long War Against Female Foeticide Cut Short Within Minutes</a></p>
         </div>
+      </div>
     </div>
-</div>
 
-  <div class="row">
-    <div class="col">
-      <div class="card h-100">
-        <div class="row g-0">
-          <div class="col-md-8">
-            <div class="card-body">
-              <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
-              <h5 class="card-title"><a href="http://www.tiki-toki.com/timeline/entry/570984/" class="link-colour"><strong>A Timeline of Remembrance: Nirbhaya’s 16 December Nightmare</strong></a></h5>
-              <p class="card-text">July 19, 2016</p>
-              <p class="card-text">I made this <a target="_blank" href="http://www.tiki-toki.com/timeline/entry/570984/DELHI-GANGRAPE/">interactive timeline</a> of the incident and aftermath of the Delhi sexual assault and murder case that caused nationwide outrage and led to policy changes.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <img src="https://images.thequint.com/thequint%2F2015-12%2F0ccebcf0-687c-4d21-ade0-27fa97b98e7e%2FNIRBHAYA_HERO.jpg?auto=format%2Ccompress&fmt=webp&width=720" class="vid-inter-img" alt="story image">
-          </div>
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://images.thequint.com/thequint%2F2015-12%2F0ccebcf0-687c-4d21-ade0-27fa97b98e7e%2FNIRBHAYA_HERO.jpg?auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="Nirbhaya image">
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+          <p class="card-text"><a class="vid-card-hover" aria-hidden="true" href='http://www.tiki-toki.com/timeline/entry/570984/'>A Timeline of Remembrance: Nirbhaya’s 16 December Nightmare</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://images.thequint.com/thequint%2F2015-11%2F6691bd1b-b48a-4a2e-a81d-3b27a3059df7%2FHERO.jpg?auto=format%2Ccompress&fmt=webp&width=720" class="card-img-top" alt="story image">
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
+          <p class="card-text"><a class="vid-card-hover" aria-hidden="true" href='http://www.tiki-toki.com/timeline/entry/352410/November-26-2008-Mumbai/'>Revisit 26/11 Terror Trail With The Quint’s Interactive Timeline</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/06/09/Pictures/ngt_d1ee05b0-4d03-11e7-88f6-6a3facb665a5.jpg" class="card-img-top" alt="NGT building">
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+          <p class="card-text"><a class="vid-card-hover" aria-hidden="true" href='https://www.hindustantimes.com/pune-news/india-s-go-green-mission-national-green-tribunal-pune-sows-landmark-judgments/story-ax1DJE9cwc34pSIMVwgjPJ.html'>India’s ‘Go Green’ Mission: National Green Tribunal, Pune Sows Landmark Judgments</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/05/15/Pictures/heritage-museum-charmaine-edwards-engine-restored-transport_cd635c06-394f-11e7-99bd-b9a47f5fadca.jpg" class="card-img-top" alt="1953 steam engine">
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+          <p class="card-text"><a class="vid-card-hover" aria-hidden="true" href='https://www.youtube.com/watch?v=j4zbe0Exv1I&ab_channel=HindustanTimes'>1953-Vintage Steam Engine Roars Back to Life at Gurgaon Heritage Transport Museum</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/05/25/Pictures/_9217e328-4116-11e7-8704-a81eba362f7d.jpg" class="card-img-top" alt="kathak image">
+        <div class="card-body">
+          <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-info">Hindustan Times</span> </h6>
+          <p class="card-text"><a href='https://www.youtube.com/watch?v=ylES5o54QZE&ab_channel=HindustanTimes'> 9-Year-Old Breaks Two Kathak World Records in a Day</a></p>
         </div>
       </div>
     </div>
   </div>
-    
-  
-
-
-  <div class="row">
-    <div class="col">
-        <div class="card h-100">
-            <div class="row g-0">
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h6 style="text-align: left; opacity: 0.6;"> <span class="badge rounded-pill text-bg-warning">The Quint</span> </h6>
-                        <p><a target="_blank" href='https://www.thequint.com/news/india/revisit-2611-terror-trail-with-the-quints-interactive-timeline#read-more' class="link-colour"><h5 class="card-title"><strong>Revisit 26/11 Terror Trail With The Quint’s Interactive Timeline</strong></h5></a><small class="text-muted">Nov 26, 2015</small></p><br>
-                        <p class="card-text">I made this <a target="_blank" href="http://www.tiki-toki.com/timeline/entry/352410/November-26-2008-Mumbai/"> interactive timeline </a> of the November 26, 2008 terror attacks in Mumbai that left over 160 dead and multiple injured. </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <img src="https://images.thequint.com/thequint%2F2015-11%2F6691bd1b-b48a-4a2e-a81d-3b27a3059df7%2FHERO.jpg?auto=format%2Ccompress&fmt=webp&width=720" class="vid-inter-img" alt="story image">
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
-
-<br>
 <br>
 
 <!-- ADD covid, flood coverage, sangli custodial death coverage -->
@@ -551,30 +565,25 @@ a i {
   <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4">
-          <a target="_blank" href='https://pbs.twimg.com/media/E3al3btUYAURduZ?format=png&name=large'><img src="https://images.hindustantimes.com/img/2021/06/13/550x309/e2906a1c-cc38-11eb-b0cf-a00e9b339624_1623583174887.jpg" class="img-fluid rounded-start img-size" alt="story image"></a>
+          <a target="_blank" href='https://pbs.twimg.com/media/E3al3btUYAURduZ?format=png&name=large'><img src="https://images.hindustantimes.com/img/2021/06/13/550x309/e2906a1c-cc38-11eb-b0cf-a00e9b339624_1623583174887.jpg" class="img-fluid rounded-start over-time-img" alt="story image"></a>
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title"><strong>Factory Fire in Pirangut Kills 18 </strong></h5>
+          <p class="card-title"><strong>Factory Fire in Pirangut Kills 18 </strong></p>
           <!--List begins-->
           <div class="list-group list-group-flush">
             <a href="https://www.hindustantimes.com/cities/pune-news/committee-to-probe-fire-accident-at-pirangut-industrial-unit-101623082655926.html" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Committee to probe fire accident at Pirangut industrial unit</h5>
-              </div>
-              <p class="mb-1"> A 4-member committee was formed to investigate the cause of the incident.</p>
+              <p class="mb-1"> A 4-member committee was formed to investigate the cause of the incident at Pirangut industrial unit.</p>
               </a>
+              <hr>
             <a href="https://www.hindustantimes.com/cities/pune-news/director-of-svs-aqua-tech-remanded-to-police-custody-101623251168073.html" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Pune fire: Director of SVS Aqua Tech remanded to police custody</h5>
-              </div>
-              <p class="mb-1">The factory was found to have been making sanitizers without permit.</p>
+              
+                <p class="mb-1">Pune fire: Director of SVS Aqua Tech remanded to police custody as the factory was found to have been making sanitizers without permit.</p>
             </a>
+            <hr>
             <a href="https://www.hindustantimes.com/cities/pune-news/one-month-after-pirangut-fire-tragedy-fire-station-work-moves-at-snail-s-pace-family-members-await-government-aid-101625655799792.html" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">One month after tragedy: families await compensation</h5>
-              </div>
-              <p class="mb-1"> Meanwhile, fire station work progressed at snail pace.</p>
+             
+                <p class="mb-1">One month after tragedy: families await compensation. Meanwhile, fire station work progressed at snail pace.</p>
             </a>
           </div>
         </div>
@@ -589,31 +598,24 @@ a i {
   <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4">
-          <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/11/10/Pictures/h-t-aniket-kothale-s-story_effe1372-c640-11e7-a37e-1053cac6ca52.JPG" class="img-fluid rounded-start img-size" alt="story image">
+          <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/11/10/Pictures/h-t-aniket-kothale-s-story_effe1372-c640-11e7-a37e-1053cac6ca52.JPG" class="over-time-img img-fluid rounded-start" alt="story image">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title"><strong>Robbery Suspect Killed in Police Custody</strong></h5>
+          <p class="card-title"><strong>Police Brutality: Robbery Suspect Killed in Police Custody</strong></p>
           <!--List begins-->
           <div class="list-group list-group-flush">
             <a href="https://www.hindustantimes.com/pune-news/man-killed-in-police-custody-in-sangli-sub-inspector-suspended/story-yWNV25yc5SFnfDHb25yT9H.html" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">PSI, 4 others suspended</h5>
-              </div>
-              <p class="mb-1">
-                Sub inspector Yuvraj Kamte, 4 constables suspended, later arrested.</p>
+      
+              <p class="mb-1">Sub inspector Yuvraj Kamte, 4 constables were suspended and later arrested for killing Aniket Kothale, 26, while in detention for petty theft.</p>
               </a>
+              <hr>
             <a href="https://www.hindustantimes.com/pune-news/sangli-custodial-death-crucial-cctv-footage-missing-technician-under-cid-scanner/story-rE8F7mVOLWkuEjuyCc2EHJ.html" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Sangli custodial death: Crucial CCTV footage missing</h5>
-              </div>
-              <p class="mb-1">Crucial CCTV footage of the police station was missing.</p>
+             <h7 class="mb-1">Sangli custodial death: Crucial CCTV footage of the police station was reported missing.</h7>
             </a>
+            <hr>
             <a href="https://www.hindustantimes.com/pune-news/sangli-custodial-death-bail-plea-of-two-accused-rejected/story-RkU8WtBY9rAsIE4Et9MOLO.html" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Sangli custodial death: bail plea of two accused rejected</h5>
-              </div>
-              <p class="mb-1">One year after the murder, the policeman arrested in the case tried to get bail.</p>
+            <p class="mb-1">One year after the murder, the policeman arrested in custodial death case unsuccessfully tried to seek bail.</p>
             </a>
           </div>
         </div>
@@ -624,34 +626,27 @@ a i {
 
   <br>
 
-  <div class="container-fluid bg-4 headline story-holder link-colour">    
+  <div class="container-fluid bg-4 headline story-holder link-colour ">    
     <div class="card mb-3">
       <div class="row g-0">
         <div class="col-md-4">
-            <img src="https://pbs.twimg.com/media/ECeILTxUwAUxlp5?format=jpg&name=medium" class="img-fluid rounded-start img-size" alt="story tweet image">
+            <img src="https://pbs.twimg.com/media/ECeILTxUwAUxlp5?format=jpg&name=medium" class="over-time-img img-fluid rounded-start" alt="story tweet image">
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <a href="https://drive.google.com/file/d/1iZrOk9VvXjZYURV3xPlg-ksgbP0UjHNP/view?usp=sharing"><h5 class="card-title"><strong>Western Maharashtra Floods of 2019 </strong></h5></a>
+            <a href="https://drive.google.com/file/d/1iZrOk9VvXjZYURV3xPlg-ksgbP0UjHNP/view?usp=sharing"><p class="card-title"><strong>Western Maharashtra Floods of 2019 </strong></p></a>
             <!--List begins-->
             <div class="list-group list-group-flush">
               <a href="https://www.hindustantimes.com/cities/sangli-kolhapur-floods-no-early-warning-issued-by-govt-says-public/story-EyIsQgJY3Z9OMT0DnoScIJ.html" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">No early warning issued by govt, says victims</h5>
-                </div>
-                <p class="mb-1">People recount shock as flood water ravaged homes.</p>
+                  <p class="mb-1">No early warning was issued by district government, say survivors. People recount shock as flood water ravaged homes at unprecedented scale.</p>
                 </a>
-              <a href="https://www.hindustantimes.com/cities/sangli-floods-rescue-teams-suffer-injuries-skin-infections-work-tirelessly/story-9p3rOqatd2YPSbXDVvehCO.html" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Flood rescue teams suffer injuries, skin infections</h5>
-                </div>
-                <p class="mb-1">Indian Army and NDRF teams faced foot-rot and cuts.</p>
+                <hr>
+              <a aria-hidden="true" href="https://www.hindustantimes.com/cities/sangli-floods-rescue-teams-suffer-injuries-skin-infections-work-tirelessly/story-9p3rOqatd2YPSbXDVvehCO.html" class="list-group-item list-group-item-action">
+                  <p class="mb-1"> Indian Army and NDRF flood rescue teams battled foot-rot and cuts after spending days in flood water.</p>
               </a>
-              <a href="https://www.hindustantimes.com/pune-news/stories-of-survival-from-the-post-flooding-city-of-sangli/story-q5UMYAEEIDJ7vIdeyqAOzK.html" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Stories of survival from the city of Sangli, post the floods</h5>
-                </div>
-                <p class="mb-1">Residents returned to broken home and lost lives.</p>
+              <hr>
+              <a  aria-hidden="true" href="https://www.hindustantimes.com/pune-news/stories-of-survival-from-the-post-flooding-city-of-sangli/story-q5UMYAEEIDJ7vIdeyqAOzK.html" class="list-group-item list-group-item-action">
+                  <p class="mb-1" >Broken toilets spell disaster for women. Residents slowly returned to broken homes and lost livihoods. </p>
               </a>
             </div>
           </div>

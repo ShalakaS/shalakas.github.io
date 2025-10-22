@@ -2,39 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Blueberry world production</title>
+    <title>Peru is Propelling World Blueberry Production Growth</title>
     <link rel="icon" href="berry_icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/fed17b7b28.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
+body {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.7;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
 
 .container {
-    max-width: 1150px;
+    max-width: 900px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
-#g-blue_viz-box {
-	max-width: 950px;
-	max-height: 800px;
-}
-
-h2 {
-    text-align: center;
-}
-
-small {
-    text-align: center;
-    display: block;
-}
-
+/* Header Section */
 .header-image {
     position: relative;
-    height: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    margin-bottom: 60px;
+    overflow: hidden;
 }
 
 .header-image::before {
@@ -46,78 +52,210 @@ small {
     height: 100%;
     background-image: url(header2.png);
     background-size: cover;
-    filter: blur(6px);
-    opacity: 1;
+    background-position: center;
+    filter: blur(8px) brightness(0.7);
+    transform: scale(1.1);
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    padding: 40px;
 }
 
 .header-image h1 {
-    position: relative;
-    z-index: 1;
-    color: whitesmoke;
-    text-shadow: 4px 4px 6px rgba(3, 0, 0, 0.632);
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
+    margin-bottom: 24px;
+    line-height: 1.2;
 }
 
-.header-image p {
-    position: relative;
-    z-index: 1;
-    color: whitesmoke;
-    text-shadow: 4px 4px 6px rgba(3, 0, 0, 0.632);
+.header-image .subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Byline */
+.byline {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.byline a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.byline a:hover {
+    color: #2980b9;
+}
+
+/* Typography */
+.article-content p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 24px;
+    color: #34495e;
+}
+
+.article-content p a {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px solid #3498db;
+    transition: all 0.3s ease;
+}
+
+.article-content p a:hover {
+    color: #2980b9;
+    border-bottom-color: #2980b9;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 50px 0 30px 0;
+    text-align: center;
+    line-height: 1.3;
+}
+
+/* Chart Containers */
+.chart-wrapper {
+    margin: 50px 0;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.chart-wrapper .ai2html {
+    margin: 0 auto;
+}
+
+/* GitHub Link */
+.github-link {
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.github-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.github-link a:hover {
+    color: #2980b9;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    margin-top: 80px;
     text-align: center;
 }
 
-.row-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  gap: 2em;
+footer p {
+    margin: 10px 0;
+    font-size: 0.95rem;
 }
 
-.column-container {
-  flex-grow: 1;
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-@media (max-width: 650px) {
-  .row-container {
-    flex-direction: column;
-  }
+footer a:hover {
+    color: #5dade2;
 }
 
-@media (max-width: 400px) {
-  body {
-    background-size: contain;
-  }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-image {
+        height: 400px;
+    }
+
+    .header-image h1 {
+        font-size: 2.2rem;
+        padding: 0 20px;
+    }
+
+    .header-image .subtitle {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .article-content p {
+        font-size: 1.05rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .chart-wrapper {
+        padding: 20px;
+    }
 }
 
+@media (max-width: 480px) {
+    .header-image {
+        height: 350px;
+    }
+
+    .header-image h1 {
+        font-size: 1.8rem;
+    }
+
+    .header-image .subtitle {
+        font-size: 0.95rem;
+    }
+}
 </style>
 
-
 <body>
-
-<body>
+    <!-- Header Section -->
     <div class="header-image">
-        <!-- Header Container -->
-        <div class="row-container">
-            <div class="column-container">
-                <!-- First Column -->
-                <br><br><br><br><br><br>
-                <h1>Peru is Propelling World Blueberry Production Growth</h1>
-                <p>Blueberry production of the world grew by 131% in 2021 compared to 2012.<br> While US maintained high production of the fruit, Peru became the second highest producer, while beating Canada for the first time in a dacade in 2022. </p>
-                
-            </div>
+        <div class="header-content">
+            <h1>Peru is Propelling World Blueberry Production Growth</h1>
+            <p class="subtitle">Blueberry production of the world grew by 131% in 2021 compared to 2012. While the US maintained high production of the fruit, Peru became the second highest producer, beating Canada for the first time in a decade in 2022.</p>
         </div>
     </div>
-<br>
+
+    <!-- Main Content -->
     <div class="container">
-        <!-- Second Container -->
-         <!-- Second Container First Row -->
-         <div class="row-container">
-            <div class="column-container">
-                <p><small><a href="https://shalakas.github.io/">Shalaka Shinde </a>| April 9, 2023</small></p>
-                <!-- First Column -->
+        <div class="byline">
+            <a href="https://shalakas.github.io/">Shalaka Shinde</a> | April 9, 2023
+        </div>
 
-                <p>The production of blueberry, worldwide, has been exponential in the decade between 2012 and 2021. In fact, blueberry is the fastest growing single crop, according to an analysis of the data recorded by the United Nations Food and Agriculture Organization. The first two in the list of highest production increase are groups of pome fruits, and seeds like cumin, coriander, anise, and fennel. However, the two groups are not included as the source of the data states that they their data is insufficient. </p>
+        <div class="article-content">
+            <p>The production of blueberry, worldwide, has been exponential in the decade between 2012 and 2021. In fact, blueberry is the fastest growing single crop, according to an analysis of the data recorded by the United Nations Food and Agriculture Organization. The first two in the list of highest production increase are groups of pome fruits, and seeds like cumin, coriander, anise, and fennel. However, the two groups are not included as the source of the data states that they their data is insufficient.</p>
 
-                <h2>Blueberry is the Fastest Growing Crop in the World</h2>
+            <h2>Blueberry is the Fastest Growing Crop in the World</h2>
+        </div>
                 
                 
 <!-- Generated by ai2html v0.115.5 - 2023-04-09 18:29 -->
@@ -470,19 +608,11 @@ small {
 
 <p><small>Source: UNFAO</small></p>
 
-            </div>
-        </div>
+<div class="article-content">
+<p>The overall production of the berry started an upward trend and refused to die down. The production dipped in a small percent in 2020 but picked up immediately in 2021. In 2023, the production is predicted to grow even beyong its previous years' record and in 2021, it was already at a whopping 1113k tonne!</p>
 
-        <!-- Second Container Second Row -->
-
-        <div class="row-container">
-            <div class="column-container">
-                <!-- First Column -->
-
-                <p>The overall production of the berry started an upward trend and refused to die down. The production dipped in a small percent in 2020 but picked up immediately in 2021. In 2023, the production is predicted to grow even beyong its previous years' record and in 2021, it was already at a whopping 1113k tonne! </p>
-
-                <h2>World Produced More Than Double Blueberries in 2021, Compared to 2012</h2>
-                
+<h2>World Produced More Than Double Blueberries in 2021, Compared to 2012</h2>
+</div>
 
 <!-- Generated by ai2html v0.115.5 - 2023-05-30 03:12 -->
 <!-- ai file: G3aPR--rgb.ai -->
@@ -782,20 +912,19 @@ small {
 <!-- End ai2html - 2023-05-30 03:12 -->
 
 
-            </div>
-        </div>
+         
         
-        <!-- Second Container Third Row -->
+<div class="article-content">
+	<p>So where is all this blueberry coming from? And who is consuming these berries? The answer to both the questions is largely the same: United States of America. The US has maintained its position as the highest producer for more than a decade. Canada came a close second in this blue race. But in 2018, a new player entered the field. Peru. Peru increased its production exponentially between 2017 and 2018. It soon beat Canada and Chile to the second and third position respectively in a single year.</p>
 
-        <div class="row-container">
-            <div class="column-container">
-                <!-- First Column -->
+	<h2>Peru Beat Canada and Chile in the Blue Race</h2>
+</div>
 
-                <p>So where is all this blueberry coming from? And who is consuming these berries? The answer to both the questions is largely the same: United States of America. The US has maintained its position as the highest producer for more than a decade. Canada came a close second in this blue race. But in 2018, a new player entered the field. Peru. Peru increased its production exponentially between 2017 and 2018. It soon beat Canada and Chile to the second and third position respectively in a single year.</p>
-                <h2>Peru Beat Canada and Chile in the Blue Race</h2>
 
 <!-- Generated by ai2html v0.115.5 - 2023-04-09 18:59 -->
 <!-- ai file: blue_viz.ai -->
+
+
 <style media="screen,print">
 	#g-blue_viz-box ,
 	#g-blue_viz-box .g-artboard {
@@ -956,7 +1085,7 @@ small {
                     previous = now;
                     result = func.apply(context, args);
                     if (!timeout) context = args = null;
-                } else if (!timeout && options.trailing !== false) {
+                } else if (!timeout) {
                     timeout = setTimeout(later, remaining);
                 }
                 return result;
@@ -970,8 +1099,9 @@ small {
 <div id="g-blue_viz-box" class="ai2html">
 
 	<!-- Artboard: Artboard_1 -->
-	<div id="g-blue_viz-Artboard_1" class="g-artboard" style="width:950px; height:650px;" data-aspect-ratio="1.462" data-min-width="950">
-<div style=""></div>
+	<!-- CHANGED: Removed fixed width, changed data-min-width from 950 to 650 for better responsiveness -->
+	<div id="g-blue_viz-Artboard_1" class="g-artboard" style="max-width:950px; width:100%; height:auto;" data-aspect-ratio="1.462" data-min-width="650">
+<div style="padding: 0 0 68.42% 0;"></div>
 		<img id="g-blue_viz-Artboard_1-img" class="g-blue_viz-Artboard_1-img g-aiImg" alt="" src="blue_viz-Artboard_1.png"/>
 		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:7.1935%;margin-top:-19.8px;left:7.1548%;width:101px;">
 			<p class="g-pstyle0">Production</p>
@@ -1067,7 +1197,8 @@ small {
 	</div>
 
 	<!-- Artboard: Artboard_2 -->
-	<div id="g-blue_viz-Artboard_2" class="g-artboard" style="max-width: 400px;max-height: 289px" data-aspect-ratio="1.384" data-min-width="0" data-max-width="949">
+	<!-- CHANGED: Changed data-max-width from 949 to 649 to match the desktop breakpoint -->
+	<div id="g-blue_viz-Artboard_2" class="g-artboard" style="max-width: 400px;max-height: 289px" data-aspect-ratio="1.384" data-min-width="0" data-max-width="649">
 <div style="padding: 0 0 72.2487% 0;"></div>
 		<img id="g-blue_viz-Artboard_2-img" class="g-blue_viz-Artboard_2-img g-aiImg" alt="" src="blue_viz-Artboard_2.png"/>
 		<div id="g-ai1-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:7.9276%;margin-top:-11.9px;left:9.314%;width:70px;">
@@ -1156,22 +1287,25 @@ small {
 
 </div>
 
+<!-- KEY CHANGES MADE:
+1. Artboard_1: Changed from fixed "width:950px" to "max-width:950px; width:100%; height:auto;"
+2. Artboard_1: Changed data-min-width from "950" to "650" so it shows in your 900px container
+3. Artboard_1: Added padding-bottom wrapper for aspect ratio preservation
+4. Artboard_2: Changed data-max-width from "949" to "649" to match the new breakpoint
+-->
+
 <!-- End ai2html - 2023-04-09 18:59 -->
 
 
-            </div>
-        
-        </div>
-        
-        <!-- Second Container Fourth Row -->
-        <div class="row-container">
-            <div class="column-container">
-                <!-- First Column -->
-            <p>So what makes Peru such a prime candidate for blueberry world domination? The answer lies in its coastal states, proximity to the Pacific ocean and a phenomenon called the Peru current or the Humboldt current coupled with the tropical weather requirement of the crop.</p>
+           
+<div class="article-content">
+	<p>So what makes Peru such a prime candidate for blueberry world domination? The answer lies in its coastal states, proximity to the Pacific ocean and a phenomenon called the Peru current or the Humboldt current coupled with the tropical weather requirement of the crop.</p>
 
-            <p>The Humboldt current, according to <a href="https://www.britannica.com/place/Peru-Current">Britannica</a>, "is a cold current, except at times of the phenomenon known as El Niño (q.v.), the Peru Current brings fog to the nearby coast but also helps to keep the coast one of the most intensely arid areas in the world. The cold flow is intensified by upwelling of deep water caused by the combined effects of the drag of surface winds of the Southeast Trades and the Earth’s rotation. Upwelling brings abundant nutrients close to the surface, and the beneficial effects of sunlight</p>
+	<p>The Humboldt current, according to <a href="https://www.britannica.com/place/Peru-Current">Britannica</a>, "is a cold current, except at times of the phenomenon known as El Niño (q.v.), the Peru Current brings fog to the nearby coast but also helps to keep the coast one of the most intensely arid areas in the world. The cold flow is intensified by upwelling of deep water caused by the combined effects of the drag of surface winds of the Southeast Trades and the Earth's rotation. Upwelling brings abundant nutrients close to the surface, and the beneficial effects of sunlight"</p>
 
-                <h2>'Peru Current' Primes Peru for Perfect Weather Conditions</h2>
+	<h2>'Peru Current' Primes Peru for Perfect Weather Conditions</h2>
+</div>
+
 
 
 <!-- Generated by ai2html v0.115.5 - 2023-04-09 18:26 -->
@@ -1499,18 +1633,13 @@ small {
 <!-- End ai2html - 2023-04-09 18:26 -->
 
 
-            </div>
-        </div>
+<div class="article-content">
+	<p>"Following the success of this crop, Peru's government declared berries as a national strategic crop. According to Law 31518 published in June 2022, blueberries will benefit from targeted public policies formulated to promote national production, exports, and industrialization," according to a report by <a href="https://agfstorage.blob.core.windows.net/misc/FP_com/2023/01/06/Aak.pdf">USDA</a> published in 2022.</p>
 
-        <!-- Second Container Fifth Row -->
-        <div class="row-container">
-            <div class="column-container">
-                <!-- First Column -->
-                <p>"Following the success of this crop, Peru’s government declared berries as a national strategic crop. According to Law 31518 published in June 2022, blueberries will benefit from targeted public policies formulated to promote national production, exports, and industrialization," according to a report by <a href="https://agfstorage.blob.core.windows.net/misc/FP_com/2023/01/06/Aak.pdf">USDA</a> published in 2022.</p>
+	<p>As a result of its popularity, the 'cold desert' country of Peru has dedicated an increasing amount of land to blueberry production. In 2020, the yield dipped due to lack of labor owing to Covid, however, reports claim that the production made up and increased further in 2022.</p>
 
-                <p>As a result of its popularity, the 'cold desert' country of Peru has dedicated an increasing amount of land to blueberry production. In 2020, the yield dipped due to lack of labor owing to Covid, however, reports claim that the production made up and increased further in 2022.</p>
-            
-                <h2>Land to Production Ratio Sees Slight Dip in 2020</h2>
+	<h2>Land to Production Ratio Sees Slight Dip in 2020</h2>
+</div>
 
 <!-- Generated by ai2html v0.115.5 - 2023-04-09 18:23 -->
 <!-- ai file: land_to_product_ratio.pdf -->
@@ -1851,21 +1980,19 @@ small {
 <!-- End ai2html - 2023-04-09 18:23 -->
 
 
-            </div>
-        </div>
-		<p><a href="https://github.com/ShalakaS/blueberry-project">Github repository</a> of this project.</p>
-		</p>
-
-    </div>
+<div class="github-link">
+	<p><a href="https://github.com/ShalakaS/blueberry-project"><i class="fa-brands fa-github"></i> View Project on GitHub</a></p>
+</div>
+</div>
 </body>
 
-<br>
-<br>
 <hr>
-<footer class="footer text-center">
-    <p>© 2023 -- Shalaka Shinde</p>
-    <p>
-    <a href="javascript:location='mailto:\u0073\u0068\u0061\u006c\u0061\u006b\u0061\u0073\u0068\u0069\u006e\u0064\u0065\u0032\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0" class="link-secondary"><script type="text/javascript">document.write('\u0073\u0068\u0061\u006c\u0061\u006b\u0061\u0073\u0068\u0069\u006e\u0064\u0065\u0032\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a> | <a href="javascript:location='mailto:\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075';void 0" class="link-secondary"><script type="text/javascript">document.write('\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075')</script></a>
-    </p> 
+<footer>
+	<p>&copy; 2023 Shalaka Shinde</p>
+	<p>
+		<a href="javascript:location='mailto:\u0073\u0068\u0061\u006c\u0061\u006b\u0061\u0073\u0068\u0069\u006e\u0064\u0065\u0032\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><script type="text/javascript">document.write('\u0073\u0068\u0061\u006c\u0061\u006b\u0061\u0073\u0068\u0069\u006e\u0064\u0065\u0032\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a> | 
+		<a href="javascript:location='mailto:\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075';void 0"><script type="text/javascript">document.write('\u0073\u0073\u0036\u0036\u0035\u0037\u0040\u0063\u006f\u006c\u0075\u006d\u0062\u0069\u0061\u002e\u0065\u0064\u0075')</script></a>
+	</p>
+</footer>
 </footer>
 </html>
